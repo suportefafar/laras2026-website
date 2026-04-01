@@ -244,89 +244,118 @@ const translations = {
     "organizing-committee": "Comité Organizador",
     "scientific-committee": "Comité Científico",
     "speakers-title": "Ponentes",
-    "contest-title": "Concurso",
-    "location-title": "Ubicación",
     "program-title": "Programa",
-    "program-day1": "Día 1 - Martes 30 de junio",
-    "program-day2": "Día 2 - Miércoles 01 de julio",
-    "program-day3": "Día 3 - Jueves 02 de julio",
-    "program-day4": "Día 4 - Viernes 03 de julio",
-    "prog-d1-s1": "<strong>8:00 - 18:00:</strong> Bienvenida y presentaciones",
-    "prog-d1-s2":
-      "<strong>8:30:</strong> Minicurso 1: Evaluación de riesgos y beneficios del consumo de alimentos - parte 1 — Juliana de Oliveira Mota (OMS, Suiza)",
-    "prog-d1-s3":
-      "<strong>12:00:</strong> Pausa para almuerzo (autogestionado)",
-    "prog-d1-s4": "<strong>13:30:</strong> Ceremonia de apertura",
-    "prog-d1-s5":
-      "<strong>14:10:</strong> Aplicación de la IA en la evaluación de riesgos: ejemplos y oportunidades futuras — Matthias Filter (BfR, Alemania)",
-    "prog-d1-s6":
-      "<strong>14:50:</strong> Evaluación riesgo-beneficio de alimentos y dietas: avances y perspectivas — Sara Monteiro Pires (DTU, Dinamarca)",
-    "prog-d1-s7":
-      "<strong>15:30:</strong> Evaluación del riesgo microbiológico de virus en los alimentos: atribución de fuentes alimentarias, métodos analíticos e indicadores — Marciane Magnani (UFPB, Brasil)",
-    "prog-d1-s8": "<strong>16:10:</strong> Refrigerio y exposición de posters",
-    "prog-d1-s9":
-      "<strong>16:40:</strong> Mesa-redonda - Colaboración regional y multilateral — André Luis de Sousa dos Santos (OPAS, Brasil); Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania); Raúl Peralta (OIRSA, República Dominicana)",
-    "prog-d1-s10": "<strong>18:30:</strong> Recepción de bienvenida",
-    "prog-d2-s1": "<strong>8:00 - 18:00:</strong> Bienvenida y presentaciones",
-    "prog-d2-s2":
-      "<strong>8:30:</strong> Minicurso 1: Evaluación de riesgos y beneficios del consumo de alimentos - parte 2 — Juliana de Oliveira Mota (OMS, Suiza)",
-    "prog-d2-s3":
-      "<strong>8:30:</strong> Minicurso 2: Necesidades regionales y oportunidades para la cooperación en evaluación de riesgos en América Latina — Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania)",
-    "prog-d2-s4":
-      "<strong>12:00:</strong> Pausa para almuerzo (autogestionado)",
-    "prog-d2-s5":
-      "<strong>13:30:</strong> Nuevos Métodos de Enfoque (NAM) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
-    "prog-d2-s6":
-      "<strong>14:10:</strong> Herramienta digital, desarrollada por OIRSA, para análisis probabilístico de la exposición dietética a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana); Lissette Marroquin (OIRSA)",
-    "prog-d2-s7":
-      "<strong>14:50:</strong> Utilización de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
-    "prog-d2-s8":
-      "<strong>15:30:</strong> De la evidencia experimental a la toma de decisiones basadas en riesgo: el papel de los bioensayos en la evaluación de riesgos — Cristina Briones (UCR, Costa Rica)",
-    "prog-d2-s9": "<strong>16:10:</strong> Refrigerio y exposición de posters",
-    "prog-d2-s10":
-      "<strong>16:40:</strong> Los cómics como estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
-    "prog-d2-s11":
-      "<strong>17:20:</strong> Mesa-redonda Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil)",
-    "prog-d3-s1": "<strong>8:00 - 18:00:</strong> Bienvenida y presentaciones",
-    "prog-d3-s2":
-      "<strong>8:30:</strong> Minicurso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
-    "prog-d3-s3":
-      "<strong>12:00:</strong> Pausa para almuerzo (autogestionado)",
-    "prog-d3-s4":
-      "<strong>13:30:</strong> Cómo ILMERAC impulsa la implementación global de los NAMs: actividades clave y colaboraciones — Denise Bloch (ILMERAC/BfR, Alemania)",
-    "prog-d3-s5":
-      "<strong>14:10:</strong> Integración de métodos para evaluar los impactos de la regulación sobre el consumo de alimentos y la salud — Constanza de Matteu Monteiro (DTU, Dinamarca)",
-    "prog-d3-s6":
-      "<strong>14:50:</strong> Actualización del documento EHC 240 — Juliana de Oliveira Mota (WHO, Suiza)",
-    "prog-d3-s7": "<strong>15:30:</strong> Refrigerio y exposición de posters",
-    "prog-d3-s8":
-      '<strong>16:10:</strong> Gestión de la inocuidad alimentaria en "dark kitchens": qué se esconde detrás de la informalidad — Diogo Thimoteo da Cunha (UNICAMP, Brasil)',
-    "prog-d3-s9":
-      "<strong>16:40:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (UCO, España)",
-    "prog-d3-s10":
-      "<strong>17:20:</strong> Exposición a metales a través de alimentos infantiles en México — Alejandra Cantoral Preciado (Universidad Iberoamericana, México)",
-    "prog-d4-s1": "<strong>8:00 - 18:00:</strong> Bienvenida y presentaciones",
-    "prog-d4-s2":
-      "<strong>8:30:</strong> Minicurso 4: Plan de Comunicación de Riesgos: elementos clave — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
-    "prog-d4-s3":
-      "<strong>12:00:</strong> Pausa para almuerzo (autogestionado)",
-    "prog-d4-s4":
-      "<strong>13:30:</strong> La base de datos de OMS SIMUVIMA/Alimentos: desafíos y oportunidades — Luc Ingenbleek (WHO, Suiza) - virtual",
-    "prog-d4-s5":
-      "<strong>14:10:</strong> Evaluación de riesgos de las sustancias formadas durante el procesamiento de alimentos — Adriana Pavesi A. Bragotto (UNICAMP, Brasil)",
-    "prog-d4-s6":
-      "<strong>14:50:</strong> De la evaluación a la comunicación del riesgo: aprendizajes y avances desde la Agencia Chilena para la Inocuidad y Calidad Alimentaria (ACHIPIA) — Constanza Avello Lefno (ACHIPIA, Chile)",
-    "prog-d4-s7": "<strong>15:30:</strong> Refrigerio",
-    "prog-d4-s8":
-      "<strong>16:10:</strong> Evaluación de riesgos de plaguicidas — Adriana Torres de Sousa (GGTOX/ANVISA, Brasil)",
-    "prog-d4-s9":
-      "<strong>16:40:</strong> Aminas bioactivas en los alimentos — Maria Beatriz Abreu Glória (UFMG, Brasil)",
-    "prog-d4-s10":
-      "<strong>17:20:</strong> Presentación de las infografías y anuncio del Premio del Concurso de Infografías",
-    "prog-d4-s11":
+    "program-day1": "Día 1 – Martes, 30 de junio",
+    "program-day2": "Día 2 – Miércoles, 1 de julio",
+    "program-day3": "Día 3 – Jueves, 2 de julio",
+    "program-day4": "Día 4 – Viernes, 3 de julio",
+    "registration-title": "Registro",
+    "registration-subtitle": "Asegure su lugar",
+    "registration-p1":
+      "El simposio está dirigido a profesionales, investigadores y académicos dedicados a temas de inocuidad alimentaria en América Latina y el Caribe, representando a los sectores gubernamental, académico e industrial. Las solicitudes de participación en LARAS 2026 se aceptarán hasta el <strong>29 de junio de 2026</strong>, o hasta que se hayan completado todas las <strong>plazas disponibles</strong>. Se recomienda encarecidamente la inscripción temprana, ya que las <strong>plazas son limitadas</strong>.",
+    "registration-btn": "Ir al Formulario de Registro",
+    "abstracts-title": "Resúmenes y pósteres",
+    "deadlines-title": "Atención a los plazos",
+    "deadline-abstracts":
+      "● <strong>Envío de resúmenes:</strong> 24 de abril de 2026",
+    "deadline-results":
+      "● <strong>Resultado de Resúmenes Aprobados:</strong> hasta el 15 de mayo de 2026",
+    "guidelines-title": "Directrices Generales",
+    "guidelines-p1":
+      "El envío de resúmenes debe realizarse en línea, en el área de inscripción del sitio web oficial del evento. Cada registro da derecho al envío de un trabajo como autor principal.",
+    "guidelines-p2":
+      "Los resúmenes de trabajos científicos podrán registrarse, observando estrictamente las normas de este reglamento, referidos a las áreas siguientes:",
+    "area-1": "Evaluación de Riesgos",
+    "area-2": "Gestión de Riesgos",
+    "area-3": "Comunicación de Riesgos",
+    "guidelines-btn": "Plantilla y directrices para resúmenes",
+    "poster-guide-title": "Guía para presentaciones de pósteres",
+    "poster-guide-p1": "El contenido del póster debe ser claro y conciso.",
+    "poster-guide-p2":
+      "Los autores son responsables de la creación e impresión de los pósteres en el formato indicado en la plantilla (Tamaño recomendado: Al: 0,90 m x An: 0,70 m, formato vertical). Cada trabajo tendrá un día y hora específicos para su instalación y presentación, los cuales serán anunciados con antelación por el Comité Científico.",
+    "poster-guide-p3":
+      "El autor presentador debe estar disponible en el póster en la fecha y hora indicadas durante toda la sesión. El Comité Científico establecerá un comité de evaluación para valorar los envíos.",
+    "poster-btn": "Plantilla de póster",
+    "contest-title": "Concurso",
+    "contest-subtitle": "Concurso de Infografías LARAS 2026",
+    "contest-topic": "Tema:",
+    "contest-topic-detail": "Microplásticos: Un Enfoque de Una Salud",
+    "contest-p1":
+      "Las infografías son una plataforma poderosa y dinámica para presentar información compleja de una manera visualmente cautivadora, clara y creativa. El concurso de este año invita a los participantes a explorar los <strong>microplásticos</strong> y su impacto en la salud humana, animal y ambiental a través de una <strong>perspectiva de Una Salud</strong>.",
+    "location-title": "Ubicación",
+    "accommodation-note-title": "Nota sobre el Alojamiento",
+    "accommodation-note-p1":
+      "Los hoteles enumerados no están afiliados a LARAS 2026. Se proporcionan únicamente para su conveniencia. Los organizadores no garantizan la calidad de los servicios. Se recomienda a los asistentes verificar los detalles de forma independiente.",
+    "recommended-accommodation": "Alojamiento Recomendado",
+    "footer-text":
+      "2026 LARAS - 4º Simposio Latinoamericano y del Caribe sobre Evaluación de Riesgos",
+    "visit-website": "Visitar Sitio Web",
+    "hotel-car": "min",
+    "hotel-walk": "min",
+    "prog-welcome-reg":
+      "<strong>08:00 – 18:30:</strong> Bienvenida, Registro e Introducciones",
+    "prog-lunch": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
+    "prog-opening": "<strong>14:00:</strong> Ceremonia de Apertura",
+    "prog-coffee-posters":
+      "<strong>16:00:</strong> Pausa para café y exposición de pósteres",
+    "prog-welcome-recep": "<strong>18:30:</strong> Recepción de bienvenida",
+    "prog-coffee": "<strong>16:00:</strong> Pausa para café",
+    "prog-award-info":
+      "<strong>17:10:</strong> Presentación de infografías y anuncio de los Premios del Concurso de Infografías",
+    "prog-award-posters":
       "<strong>17:30:</strong> Presentación del Premio a los Mejores Pósteres — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
-    "prog-d4-s12":
-      "<strong>17:45:</strong> Palabras de cierre y reflexiones finales",
+    "prog-closing":
+      "<strong>17:50:</strong> Palabras de Clausura y Reflexiones Finales",
+    "hero-edition": "4ª Edición",
+    "hero-title": "LARAS <br /> <span>BRASIL 2026</span>",
+    "hero-subtitle":
+      "SIMPOSIO LATINOAMERICANO Y DEL CARIBE<br />SOBRE EVALUACIÓN DE RIESGOS",
+    "prog-mini-1":
+      "<strong>08:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos — Juliana de Oliveira Mota (WHO, Suiza)",
+    "prog-mini-2":
+      "<strong>08:30:</strong> Mini-curso 2: Envío de datos a bases de datos internacionales – GEMS/Food — Luc Ingenbleek (WHO, Suiza)",
+    "prog-session-ai":
+      "<strong>14:40:</strong> Aplicación de la IA en la evaluación de riesgos: ejemplos y próximas oportunidades — Matthias Filter (BfR, Alemania)",
+    "prog-session-risk-benefit":
+      "<strong>15:20:</strong> Evaluación de riesgo-beneficio de alimentos y dietas: desarrollos y perspectivas — Sara Monteiro Pires (DTU, Dinamarca)",
+    "prog-session-virus":
+      "<strong>16:30:</strong> Evaluación del riesgo microbiológico de virus en los alimentos: atribución de alimentos, métodos analíticos e indicadores — Marciane Magnani (UFPB, Brasil)",
+    "prog-round-regional":
+      "<strong>17:10:</strong> Mesa redonda – Colaboración Regional y Multilateral — André Luis de Sousa dos Santos (OPAS, Brasil); Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania); Raúl Peralta (OIRSA, República Dominicana)",
+    "prog-session-nams":
+      "<strong>14:00:</strong> Nuevos Métodos de Enfoque (NAMs) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
+    "prog-session-digital":
+      "<strong>14:40:</strong> Una herramienta digital, desarrollada por OIRSA, para el análisis probabilístico de la exposición de los alimentos a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana)",
+    "prog-session-databases":
+      "<strong>15:20:</strong> Uso de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
+    "prog-round-mycotoxins":
+      "<strong>16:30:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil)",
+    "prog-session-comics":
+      "<strong>17:30:</strong> El cómic como estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Raúl Müller (BfR, Alemania)",
+    "prog-mini-3":
+      "<strong>08:30:</strong> Mini-curso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-session-ilmerac":
+      "<strong>14:00:</strong> Cómo impulsa el ILMERAC la implementación global de los NAMs – actividades clave y colaboraciones — Denise Bloch (ILMERAC/BfR, Alemania)",
+    "prog-session-integrating":
+      "<strong>14:40:</strong> Integración de métodos para evaluar los impactos de la regulación en el consumo de alimentos y la salud — Constanza de Matteu Monteiro (DTU, Dinamarca)",
+    "prog-session-gems":
+      "<strong>15:20:</strong> Desafíos en la propuesta de cambios a la información ingresada en GEMS/Food — Luc Ingenbleek (WHO, Suiza)",
+    "prog-session-microbio":
+      "<strong>16:30:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (España)",
+    "prog-session-dark-kitchens":
+      "<strong>17:10:</strong> Gestión de la Inocuidad Alimentaria en Dark Kitchens: Lo que se esconde tras la informalidad — Diogo Thimoteo da Cunha (UNICAMP, Brasil)",
+    "prog-session-metals":
+      "<strong>17:50:</strong> Exposición a metales provenientes de alimentos infantiles en México — Alejandra Cantoral Preciado (Universidad Iberoamericana, México)",
+    "prog-mini-4":
+      "<strong>08:30:</strong> Mini-curso 4: Plan de comunicación de riesgos: elementos clave — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-session-ehc":
+      "<strong>14:00:</strong> Actualización del documento EHC 240 — Juliana de Oliveira Mota (WHO, Suiza)",
+    "prog-session-processing":
+      "<strong>14:40:</strong> Evaluación de riesgos de sustancias formadas durante el procesamiento de alimentos — Adriana Pavesi Arisseto Bragotto (UNICAMP, Brasil)",
+    "prog-session-achipia":
+      "<strong>15:20:</strong> De la evaluación de riesgos a la comunicación de riesgos: lecciones aprendidas y progresos de ACHIPIA — Constanza Paz Avello Lefno (ACHIPIA, Chile)",
+    "prog-session-pesticide":
+      "<strong>16:30:</strong> Evaluación de riesgos de mezclas de plaguicidas — ANVISA (Brasil)",
     "contest-deadline":
       "FECHA LÍMITE PARA ENVIAR SU INFOGRAFÍA: 4 de mayo de 2026",
     "contest-disclaimer":
@@ -381,51 +410,6 @@ const translations = {
     "inst-who-ch": "OMS, Suiza",
     "inst-ufpb-br": "UFPB, Brasil",
     "inst-oirsa-do": "OIRSA, República Dominicana",
-    "hero-edition": "4ª Edición",
-    "hero-title": "LARAS <br /> <span>BRASIL 2026</span>",
-    "hero-subtitle":
-      "SIMPOSIO LATINOAMERICANO Y DEL CARIBE<br />SOBRE EVALUACIÓN DE RIESGOS",
-    "registration-title": "Registro",
-    "registration-subtitle": "Asegure su lugar",
-    "registration-p1":
-      "El simposio está dirigido a profesionales, investigadores y académicos involucrados en temas de inocuidad alimentaria en América Latina y el Caribe, representando a los sectores gubernamental, académico e industrial. Las solicitudes de participación en LARAS 2026 se aceptarán hasta el <strong>29 de junio de 2026</strong>, o hasta que se completen todas las <strong>plazas disponibles</strong>. Se recomienda encarecidamente el envío anticipado, ya que <strong>las plazas son limitadas</strong>.",
-    "registration-btn": "Ir al formulario de registro",
-    "abstracts-title": "Resúmenes y pósteres",
-    "deadlines-title": "Atención a los plazos",
-    "deadline-abstracts":
-      '● <strong>Envío de resúmenes:</strong> 24 de Abril de 2026 (<a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/" target="_blank">https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/</a>).',
-    "deadline-results":
-      "● <strong>Resultado de resúmenes aprobados:</strong> hasta el 15 de Mayo de 2026.",
-    "guidelines-title": "Directrices generales",
-    "guidelines-p1":
-      "El envío de resúmenes debe realizarse en línea, en el área de inscritos de la página oficial del evento. Cada inscripción da derecho al envío de un trabajo como autor principal.",
-    "guidelines-p2":
-      "Podrán registrarse resúmenes de trabajos científicos, observando estrictamente las normas del presente reglamento, referidos a las siguientes áreas:",
-    "area-1": "Evaluación de Riesgos",
-    "area-2": "Gestión de Riesgos",
-    "area-3": "Comunicación de Riesgos",
-    "guidelines-btn": "Plantilla y directrices de resúmenes",
-    "poster-guide-title": "Guía para la presentación de pósteres",
-    "poster-guide-p1": "El contenido del póster debe ser claro y conciso.",
-    "poster-guide-p2":
-      "Los autores son responsables de crear e imprimir los pósteres en el formato indicado en la plantilla (Tamaño recomendado: Al: 0,90 m x An: 0,70 m, formato vertical). Cada trabajo tendrá un día y una hora específicos para el montaje y la presentación, que serán anunciados con antelación por el Comité Científico.",
-    "poster-guide-p3":
-      "El autor que presente el trabajo deberá estar disponible junto al póster el día y a la hora indicados durante toda la sesión. El Comité Científico establecerá un comité evaluador para valorar los trabajos presentados.",
-    "poster-btn": "Plantilla de pósteres",
-    "contest-subtitle": "Concurso de Infografías LARAS 2026",
-    "contest-topic": "Tema:",
-    "contest-topic-detail": "Microplásticos: Un enfoque de Una Salud",
-    "contest-p1":
-      "Las infografías son una plataforma potente y dinámica para presentar información compleja de forma visualmente cautivadora, clara y creativa. El concurso de este año invita a los participantes a explorar los <strong>microplásticos</strong> y su impacto en la salud humana, animal y ambiental a través de una <strong>perspectiva de Una Salud</strong>.",
-    "accommodation-note-title": "Nota sobre el alojamiento",
-    "accommodation-note-p1":
-      "Los hoteles listados no están afiliados a LARAS 2026. Se proporcionan únicamente para su conveniencia. Los organizadores no garantizan la calidad de los servicios. Se anima a los asistentes a verificar los detalles de forma independiente.",
-    "recommended-accommodation": "Alojamiento recomendado",
-    "hotel-walk": "mín caminando",
-    "hotel-car": "mín en coche",
-    "visit-website": "Visitar el sitio web",
-    "footer-text":
-      "2026 LARAS - 4º Simposio Latinoamericano y del Caribe sobre Evaluación de Riesgos",
   },
 };
 
