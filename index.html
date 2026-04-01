@@ -1,30 +1,88 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>LARAS 2026 - Food Safety Based on Science</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css?v=4" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>LARAS 2026 - Food Safety Based on Science</title>
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="style.css?v=4" />
-</head>
+  <body>
+    <header>
+      <nav class="container nav-container">
+        <div class="nav-logo">
+          <a href="#"
+            ><img src="images/logo-laras.png" alt="LARAS Logo" height="40"
+          /></a>
+        </div>
 
-<body>
-  <header>
-    <nav class="container nav-container">
-      <div class="nav-logo">
-        <a href="#"><img src="images/logo-laras.png" alt="LARAS Logo" height="40" /></a>
-      </div>
+        <button
+          class="mobile-menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <i class="bi bi-list"></i>
+        </button>
 
-      <button class="mobile-menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <i class="bi bi-list"></i>
+        <ul class="nav-links">
+          <li>
+            <a href="#committees" data-i18n="nav-committees">Committees</a>
+          </li>
+          <li><a href="#speakers" data-i18n="nav-speakers">Speakers</a></li>
+          <li><a href="#program" data-i18n="nav-program">Program</a></li>
+          <li>
+            <a href="#registration" data-i18n="nav-registration"
+              >Registration</a
+            >
+          </li>
+          <li><a href="#abstracts" data-i18n="nav-abstracts">Abstracts</a></li>
+          <li><a href="#contest" data-i18n="nav-contest">Contest</a></li>
+          <li><a href="#location" data-i18n="nav-location">Location</a></li>
+          <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+          <li>
+            <a
+              href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
+              target="_blank"
+              class="btn btn-primary"
+              data-i18n="nav-register"
+              >Register</a
+            >
+          </li>
+        </ul>
+
+        <div class="lang-switcher">
+          <button class="lang-btn" id="lang-btn">
+            <span id="current-lang-flag">🇺🇸</span>
+            <span id="current-lang-text">EN</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="lang-dropdown">
+            <div class="lang-option active" data-lang="en">
+              <span>🇺🇸</span> English
+            </div>
+            <div class="lang-option" data-lang="es">
+              <span>🇪🇸</span> Español
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="mobile-nav-overlay">
+      <button class="mobile-nav-close" aria-label="Close navigation">
+        <i class="bi bi-x"></i>
       </button>
-
-      <ul class="nav-links">
-        <li>
-          <a href="#committees" data-i18n="nav-committees">Committees</a>
-        </li>
+      <ul class="mobile-nav-links">
+        <li><a href="#welcome" data-i18n="welcome-title">Welcome</a></li>
+        <li><a href="#committees" data-i18n="nav-committees">Committees</a></li>
         <li><a href="#speakers" data-i18n="nav-speakers">Speakers</a></li>
         <li><a href="#program" data-i18n="nav-program">Program</a></li>
         <li>
@@ -35,953 +93,1323 @@
         <li><a href="#location" data-i18n="nav-location">Location</a></li>
         <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
         <li>
-          <a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
-            target="_blank" class="btn btn-primary" data-i18n="nav-register">Register</a>
+          <a
+            href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
+            target="_blank"
+            class="btn btn-primary"
+            data-i18n="nav-register"
+            >Register</a
+          >
         </li>
       </ul>
-
-      <div class="lang-switcher">
-        <button class="lang-btn" id="lang-btn">
-          <span id="current-lang-flag">🇺🇸</span>
-          <span id="current-lang-text">EN</span>
-          <i class="bi bi-chevron-down"></i>
-        </button>
-        <div class="lang-dropdown">
-          <div class="lang-option active" data-lang="en">
-            <span>🇺🇸</span> English
-          </div>
-          <div class="lang-option" data-lang="es">
-            <span>🇪🇸</span> Español
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <div class="mobile-nav-overlay">
-    <button class="mobile-nav-close" aria-label="Close navigation">
-      <i class="bi bi-x"></i>
-    </button>
-    <ul class="mobile-nav-links">
-      <li><a href="#welcome" data-i18n="welcome-title">Welcome</a></li>
-      <li><a href="#committees" data-i18n="nav-committees">Committees</a></li>
-      <li><a href="#speakers" data-i18n="nav-speakers">Speakers</a></li>
-      <li><a href="#program" data-i18n="nav-program">Program</a></li>
-      <li>
-        <a href="#registration" data-i18n="nav-registration">Registration</a>
-      </li>
-      <li><a href="#abstracts" data-i18n="nav-abstracts">Abstracts</a></li>
-      <li><a href="#contest" data-i18n="nav-contest">Contest</a></li>
-      <li><a href="#location" data-i18n="nav-location">Location</a></li>
-      <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
-      <li>
-        <a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
-          target="_blank" class="btn btn-primary" data-i18n="nav-register">Register</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="hero hero-desktop">
-    <div class="first-layer">
-      <div class="banner-bg active" style="background-image: url(&quot;images/banner-1.jpeg&quot;)"></div>
-      <div class="banner-bg" style="background-image: url(&quot;images/banner-2.jpeg&quot;)"></div>
-      <div class="banner-bg" style="background-image: url(&quot;images/banner-3.jpeg&quot;)"></div>
-      <div class="banner-bg" style="background-image: url(&quot;images/banner-4.jpeg&quot;)"></div>
-      <div class="banner-bg" style="background-image: url(&quot;images/banner-5.jpeg&quot;)"></div>
-      <div class="banner-overlay"></div>
     </div>
-    <div class="second-layer">
-      <div class="second-layer-container">
-        <a href="#welcome">
-          <div class="hero-badge" data-i18n="hero-edition">4th Edition</div>
-        </a>
 
-        <img src="images/logo-laras-mobile.png" alt="LARAS Logo" loading="lazy" class="hero-mobile-logo" />
-
-        <h1 class="hero-mobile-title" data-i18n="hero-title">
-          LARAS <br />
-          <span>BRAZIL 2026</span>
-        </h1>
-
-        <p class="hero-mobile-subtitle" data-i18n="hero-subtitle">
-          LATIN AMERICAN AND CARIBBEAN<br />RISK ASSESSMENT SYMPOSIUM
-        </p>
-
-        <h2>
-          <span><i class="bi bi-calendar2-week-fill"></i></span>
-          <span data-i18n="hero-when">WHEN: June 30th to July 3rd, 2026</span>
-        </h2>
-        <h2>
-          <span><i class="bi bi-pin-map-fill"></i></span>
-          <span data-i18n="hero-where">WHERE: UFMG, Belo Horizonte, Brazil</span>
-        </h2>
-
-        <div class="hero-actions">
-          <a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
-            target="_blank" class="btn btn-primary register-cta-btn" data-i18n="btn-register-cta">Register Now</a>
-          <a href="#program" class="btn program-cta-btn" data-i18n="btn-program-cta">View Program</a>
-        </div>
+    <div class="hero hero-desktop">
+      <div class="first-layer">
+        <div
+          class="banner-bg active"
+          style="background-image: url(&quot;images/banner-1.jpeg&quot;)"
+        ></div>
+        <div
+          class="banner-bg"
+          style="background-image: url(&quot;images/banner-2.jpeg&quot;)"
+        ></div>
+        <div
+          class="banner-bg"
+          style="background-image: url(&quot;images/banner-3.jpeg&quot;)"
+        ></div>
+        <div
+          class="banner-bg"
+          style="background-image: url(&quot;images/banner-4.jpeg&quot;)"
+        ></div>
+        <div
+          class="banner-bg"
+          style="background-image: url(&quot;images/banner-5.jpeg&quot;)"
+        ></div>
+        <div class="banner-overlay"></div>
       </div>
-    </div>
-  </div>
+      <div class="second-layer">
+        <div class="second-layer-container">
+          <a href="#welcome">
+            <div class="hero-badge" data-i18n="hero-edition">4th Edition</div>
+          </a>
 
-  <section id="welcome">
-    <div class="container">
-      <h2 class="section-title" data-i18n="welcome-title">Welcome</h2>
-      <div class="welcome-content text-dark">
-        <h3 class="text-green mb-2" data-i18n="welcome-subtitle">
-          Welcome to LARAS 2026 - The 4th Latin American and Caribbean Risk
-          Assessment Symposium
-        </h3>
+          <img
+            src="images/logo-laras-mobile.png"
+            alt="LARAS Logo"
+            loading="lazy"
+            class="hero-mobile-logo"
+          />
 
-        <p data-i18n="welcome-p1">
-          It is with great enthusiasm that we announce the
-          <strong>4th Latin American and Caribbean Risk Assessment Symposium
-            (LARAS)</strong>! Over the last years, LARAS has become one of the most important
-          forums for discussion and knowledge exchange in the field of Risk
-          Analysis for food safety across Latin America and the Caribbean.
-        </p>
-        <br />
-        <p data-i18n="welcome-p2">
-          The 2026 edition will take place from
-          <strong>June 30 to July 3</strong> at the Faculty of Pharmacy,
-          Federal University of Minas Gerais (UFMG), Brazil, under the central
-          theme <strong>“Food Safety Based on Science”</strong> — the very
-          foundation of Risk Analysis.
-        </p>
-        <br />
-        <p data-i18n="welcome-p3">
-          Risk analysis in the food sector brings together diverse
-          stakeholders — from regulation, research, and production to
-          consumption. In this broad and dynamic context, open communication
-          among all parties is essential to ensure both safety and trust.
-          Guided by this principle, LARAS stands as a bridge, fostering
-          dialogue, collaboration, and shared progress to strengthen food
-          safety in our region.
-        </p>
-        <br />
-        <p data-i18n="welcome-p4">
-          More than just a scientific meeting, LARAS is a unique opportunity
-          to recognize the similarities and differences among countries,
-          understand the challenges faced, and learn from the strategies
-          developed throughout the region. This international exchange
-          enriches the science of Risk Analysis and inspires new initiatives,
-          strategic partnerships, and collaborative solutions among experts.
-        </p>
-        <br />
-        <p data-i18n="welcome-p5">
-          In this edition, we reaffirm our tradition of quality, scientific
-          excellence, and cooperation, working to advance knowledge and
-          promote innovation in food risk assessment.
-        </p>
-        <br />
-        <p data-i18n="welcome-p6">
-          We warmly invite you to join us for this inspiring event and to be
-          part of building a future in which Risk Analysis serves as the
-          cornerstone of actions that ensure safe food for all.
-        </p>
-      </div>
-    </div>
-  </section>
+          <h1 class="hero-mobile-title" data-i18n="hero-title">
+            LARAS <br />
+            <span>BRAZIL 2026</span>
+          </h1>
 
-  <section id="committees" class="bg-grey">
-    <div class="container">
-      <h2 class="section-title" data-i18n="committees-title">Committees</h2>
-      <h3 class="mb-3" data-i18n="organizing-committee">
-        Organizing Committee
-      </h3>
-      <div class="grid-3 mb-4">
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Flávia.jpg&quot;)"></div>
-          <h4 class="mb-1">Flávia Beatriz Custódio</h4>
-          <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Lígia Lindner Schreiner</h4>
-          <p class="text-muted" data-i18n="inst-anvisa-br">ANVISA, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Leiliane Coelho André</h4>
-          <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Maria Aparecida Vieira Teixeira Garcia</h4>
-          <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Maria José Nunes de Paiva</h4>
-          <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Patrícia Diniz Andrade</h4>
-          <p class="text-muted" data-i18n="inst-unb-br">UnB, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Ana Cristina Briones Rodriguez</h4>
-          <p class="text-muted" data-i18n="inst-ucr-cr">UCR, Costa Rica</p>
-        </div>
-      </div>
-
-      <h3 class="mb-3" data-i18n="scientific-committee">
-        Scientific Committee
-      </h3>
-      <div class="grid-3">
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Verônica.png&quot;)"></div>
-          <h4 class="mb-1">Verônica Ortiz Alvarenga</h4>
-          <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Larissa Bertollo Gomes Porto</h4>
-          <p class="text-muted">&nbsp;</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Adriana Pavesi.jpg&quot;)"></div>
-          <h4 class="mb-1">Adriana Pavesi Arisseto Bragotto</h4>
-          <p class="text-muted" data-i18n="inst-unicamp-br">
-            UNICAMP, Brazil
+          <p class="hero-mobile-subtitle" data-i18n="hero-subtitle">
+            LATIN AMERICAN AND CARIBBEAN<br />RISK ASSESSMENT SYMPOSIUM
           </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/ANDERSON_SANTANA.jpg&quot;)"></div>
-          <h4 class="mb-1">Anderson de Souza Sant’Ana</h4>
-          <p class="text-muted" data-i18n="inst-unicamp-br">
-            UNICAMP, Brazil
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Eloísa Dutra Caldas</h4>
-          <p class="text-muted" data-i18n="inst-unb-br">UnB, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Alejandra.jpg&quot;)"></div>
-          <h4 class="mb-1">Alejandra de Jesús Cantoral Preciado</h4>
-          <p class="text-muted" data-i18n="inst-ibero-mx">IBERO, Mexico</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Arícia Mara Melo Possas</h4>
-          <p class="text-muted" data-i18n="inst-uco-es">UCO, Spain</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Constanza DTU.jpg&quot;)"></div>
-          <h4 class="mb-1">Constanza De Matteu Monteiro</h4>
-          <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Eliseu.jpeg&quot;)"></div>
-          <h4 class="mb-1">Eliseu Verly Junior</h4>
-          <p class="text-muted" data-i18n="inst-uerj-br">UERJ, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Liliana Rocha.jpg&quot;)"></div>
-          <h4 class="mb-1">Liliana de Oliveira Rocha</h4>
-          <p class="text-muted" data-i18n="inst-unicamp-br">
-            UNICAMP, Brazil
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Marta Hiromi Taniwaki</h4>
-          <p class="text-muted" data-i18n="inst-ital-br">ITAL, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/SaraPires1 .jpg&quot;)"></div>
-          <h4 class="mb-1">Sara Monteiro Pires</h4>
-          <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="speakers">
-    <div class="container">
-      <h2 class="section-title" data-i18n="speakers-title">Speakers</h2>
-      <div class="grid-3">
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-1.webp&quot;)"></div>
-          <h4 class="mb-1">Adriana Pavesi Arisseto Bragotto</h4>
-          <p class="text-muted" data-i18n="inst-unicamp-br">
-            UNICAMP, Brazil
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="
-                background: url(&quot;images/Photo_Adriana Torres_Anvisa Brasil.jpg&quot;);
-              "></div>
-          <h4 class="mb-1">Adriana Torres de Sousa</h4>
-          <p class="text-muted" data-i18n="inst-anvisa-br">ANVISA, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Alejandra.jpg&quot;)"></div>
-          <h4 class="mb-1">Alejandra de Jesús Cantoral Preciado</h4>
-          <p class="text-muted" data-i18n="inst-ibero-mx">IBERO, Mexico</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Ana Cristina Briones</h4>
-          <p class="text-muted" data-i18n="inst-ucr-cr">UCR, Costa Rica</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">André Luís de Sousa dos Santos</h4>
-          <p class="text-muted" data-i18n="inst-paho-br">PAHO, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Arícia Mara Melo Possas</h4>
-          <p class="text-muted" data-i18n="inst-uco-es">UCO, Spain</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-2.webp&quot;)"></div>
-          <h4 class="mb-1">Bettina Dabrowski-de-Flores</h4>
-          <p class="text-muted" data-i18n="inst-bfr-de">BfR, Germany</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Constanza DTU.jpg&quot;)"></div>
-          <h4 class="mb-1">Constanza De Matteu Monteiro</h4>
-          <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Constanza Achipia.jpg&quot;)"></div>
-          <h4 class="mb-1">Constanza Paz Avello Lefno</h4>
-          <p class="text-muted" data-i18n="inst-achipia-cl">ACHIPIA, Chile</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-5.webp&quot;)"></div>
-          <h4 class="mb-1">Denise Bloch</h4>
-          <p class="text-muted" data-i18n="inst-ilmerac-bfr-de">
-            ILMERAC - BfR, Germany
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Diogo.jpeg&quot;)"></div>
-          <h4 class="mb-1">Diogo Thimoteo da Cunha</h4>
-          <p class="text-muted" data-i18n="inst-unicamp-br">
-            UNICAMP, Brazil
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Eliseu.jpeg&quot;)"></div>
-          <h4 class="mb-1">Eliseu Verly Júnior</h4>
-          <p class="text-muted" data-i18n="inst-uerj-br">UERJ, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">José Vicente Tarazona Lafarga</h4>
-          <p class="text-muted" data-i18n="inst-usciii-es">USCIII, Spain</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="
-                background: url(&quot;images/Juliana de Oliveira Mota.jpeg&quot;);
-              "></div>
-          <h4 class="mb-1">Juliana de Oliveira Mota</h4>
-          <p class="text-muted" data-i18n="inst-who-ch">WHO, Switzerland</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Lígia Lindner Schreiner</h4>
-          <p class="text-muted" data-i18n="inst-anvisa-br">ANVISA, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Liliana Rocha.jpg&quot;)"></div>
-          <h4 class="mb-1">Liliana de Oliveira Rocha</h4>
-          <p class="text-muted" data-i18n="inst-unicamp-br">
-            UNICAMP, Brazil
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Dr Luc Ingenbleek.jpg&quot;)"></div>
-          <h4 class="mb-1">Luc Ingenbleek</h4>
-          <p class="text-muted" data-i18n="inst-who-ch">WHO, Switzerland</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Marciane.png&quot;)"></div>
-          <h4 class="mb-1">Marciane Magnani</h4>
-          <p class="text-muted" data-i18n="inst-ufpb-br">UFPB, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Maria Beatriz Abreu Glória</h4>
-          <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-x.png&quot;)"></div>
-          <h4 class="mb-1">Marta Hiromi Taniwaki</h4>
-          <p class="text-muted" data-i18n="inst-ital-br">ITAL, Brazil</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-9.webp&quot;)"></div>
-          <h4 class="mb-1">Matthias Filter</h4>
-          <p class="text-muted" data-i18n="inst-bfr-de">BfR, Germany</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/Raúl Peralta.jpg&quot;)"></div>
-          <h4 class="mb-1">Raúl Peralta</h4>
-          <p class="text-muted" data-i18n="inst-oirsa-do">
-            OIRSA, Dominican Republic
-          </p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/SaraPires1 .jpg&quot;)"></div>
-          <h4 class="mb-1">Sara Monteiro Pires</h4>
-          <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
-        </div>
-        <div class="card text-center">
-          <div class="speaker-img" style="background: url(&quot;images/person-12.webp&quot;)"></div>
-          <h4 class="mb-1">Umida Masharipova</h4>
-          <p class="text-muted" data-i18n="inst-ilmerac-bfr-de">
-            ILMERAC - BfR, Germany
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+          <h2>
+            <span><i class="bi bi-calendar2-week-fill"></i></span>
+            <span data-i18n="hero-when">WHEN: June 30th to July 3rd, 2026</span>
+          </h2>
+          <h2>
+            <span><i class="bi bi-pin-map-fill"></i></span>
+            <span data-i18n="hero-where"
+              >WHERE: UFMG, Belo Horizonte, Brazil</span
+            >
+          </h2>
 
-  <section id="program" class="bg-grey">
-    <div class="container">
-      <h2 class="section-title" data-i18n="program-title">Program</h2>
-      <!-- Day 1 -->
-      <div class="card card-highlight-green-left mb-3">
-        <h3 class="text-green mb-3" data-i18n="program-day1">
-          Day 1 – Tuesday June 30th
-        </h3>
-        <ul class="list-unstyled list-relaxed">
-          <li data-i18n="prog-d1-s1">
-            <strong>8:00 - 18:00:</strong> Welcome, Registration and Introductions
-          </li>
-          <li data-i18n="prog-d1-s2">
-            <strong>8:30:</strong> Mini-course 1: Risks and Benefits Assessment of Food Consumption - part I — Juliana de Oliveira Mota (WHO, Switzerland)
-          </li>
-          <li data-i18n="prog-d1-s3">
-            <strong>12:00:</strong> Lunch time (self-arranged)
-          </li>
-          <li data-i18n="prog-d1-s4">
-            <strong>13:30:</strong> Opening Ceremony
-          </li>
-          <li data-i18n="prog-d1-s5">
-            <strong>14:10:</strong> Application of Al in risk assessment: examples and upcoming opportunities — Matthias Filter (BfR, Germany)
-          </li>
-          <li data-i18n="prog-d1-s6">
-            <strong>14:50:</strong> Risk-benefit assessment of foods and diets: developments and perspectives — Sara Monteiro Pires (DTU, Denmark)
-          </li>
-          <li data-i18n="prog-d1-s7">
-            <strong>15:30:</strong> Microbiological risk assessment of viruses in foods: food attribution, analytical methods and indicators — Marciane Magnani (UFPB, Brazil)
-          </li>
-          <li data-i18n="prog-d1-s8">
-            <strong>16:10:</strong> Coffee break and posters exposition
-          </li>
-          <li data-i18n="prog-d1-s9">
-            <strong>16:40:</strong> Round table - Regional and Multilateral Collaboration — André Luis de Sousa dos Santos (OPAS, Brazil); Bettina Dabrowski-de-Flores (BfR, Germany); Umida Masharipova (ILMERAC/BfR, Germany); Raúl Peralta (OIRSA, Dominican Republic)
-          </li>
-          <li data-i18n="prog-d1-s10">
-            <strong>18:30:</strong> Welcome reception
-          </li>
-        </ul>
-      </div>
-
-      <!-- Day 2 -->
-      <div class="card card-highlight-green-left mb-3">
-        <h3 class="text-green mb-3" data-i18n="program-day2">
-          Day 2 – Wednesday, July 1st
-        </h3>
-        <ul class="list-unstyled list-relaxed">
-          <li data-i18n="prog-d2-s1">
-            <strong>8:00 - 18:00:</strong> Welcome, Registration and Introductions
-          </li>
-          <li data-i18n="prog-d2-s2">
-            <strong>8:30:</strong> Mini-course 1: Risks and Benefits Assessment of Food Consumption - part II — Juliana de Oliveira Mota (WHO, Switzerland)
-          </li>
-          <li data-i18n="prog-d2-s3">
-            <strong>8:30:</strong> Mini-course 2: Regional Needs and Opportunities for Risk Assessment Cooperation in Latin America — Bettina Dabrowski-de-Flores (BfR, Germany); Umida Masharipova (ILMERAC/BfR, Germany)
-          </li>
-          <li data-i18n="prog-d2-s4">
-            <strong>12:00:</strong> Lunch time (self-arranged)
-          </li>
-          <li data-i18n="prog-d2-s5">
-            <strong>13:30:</strong> New Approach Methods (NAMs) in Next- Generation Risk Assessment (NGRA) — José Vicente Tarazona Lafarga (ISCIII, Spain)
-          </li>
-          <li data-i18n="prog-d2-s6">
-            <strong>14:10:</strong> A digital tool, developed by OIRSA, for probabilistic analysis of food exposure to chemical contaminants — Raúl Peralta (OIRSA, Dominican Republic); Lissette Marroquin (OIRSA)
-          </li>
-          <li data-i18n="prog-d2-s7">
-            <strong>14:50:</strong> Use of national food consumption databases for risk assessment — Eliseu Verly Júnior (UERJ, Brazil)
-          </li>
-          <li data-i18n="prog-d2-s8">
-            <strong>15:30:</strong> From Experimental Evidence to Decision- Making: Bioassays in Risk Assessment — Cristina Briones (UCR, Costa Rica)
-          </li>
-          <li data-i18n="prog-d2-s9">
-            <strong>16:10:</strong> Coffee break and posters exposition
-          </li>
-          <li data-i18n="prog-d2-s10">
-            <strong>16:40:</strong> Comics as a risk communication strategy — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)
-          </li>
-          <li data-i18n="prog-d2-s11">
-            <strong>17:20:</strong> Round table - Mycotoxins — Marta Hiromi Taniwaki (ITAL, Brazil); Liliana O. Rocha (UNICAMP, Brazil); Lígia L. Schreiner (ANVISA, Brazil)
-          </li>
-        </ul>
-      </div>
-
-      <!-- Day 3 -->
-      <div class="card card-highlight-green-left mb-3">
-        <h3 class="text-green mb-3" data-i18n="program-day3">
-          Day 3 – Thursday, July 2nd
-        </h3>
-        <ul class="list-unstyled list-relaxed">
-          <li data-i18n="prog-d3-s1">
-            <strong>8:00 - 18:00:</strong> Welcome, Registration and Introductions
-          </li>
-          <li data-i18n="prog-d3-s2">
-            <strong>8:30:</strong> Mini-course 3: How to develop a risk communication strategy — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)
-          </li>
-          <li data-i18n="prog-d3-s3">
-            <strong>12:00:</strong> Lunch time (self-arranged)
-          </li>
-          <li data-i18n="prog-d3-s4">
-            <strong>13:30:</strong> How ILMERAC drives the global implementation of NAMs - key activities and collaborations — Denise Bloch (ILMERAC/BfR, Germany)
-          </li>
-          <li data-i18n="prog-d3-s5">
-            <strong>14:10:</strong> Integrating methods to assess the impacts of regulation on food consumption and health — Constanza de Matteu Monteiro (DTU, Denmark)
-          </li>
-          <li data-i18n="prog-d3-s6">
-            <strong>14:50:</strong> Update to document EHC 240 — Juliana de Oliveira Mota (WHO, Switzerland)
-          </li>
-          <li data-i18n="prog-d3-s7">
-            <strong>15:30:</strong> Microbiological risk assessment — Arícia Mara Possas (UCO, Spain)
-          </li>
-          <li data-i18n="prog-d3-s8">
-            <strong>16:10:</strong> Coffee break and posters exposition
-          </li>
-          <li data-i18n="prog-d3-s9">
-            <strong>16:40:</strong> Food Safety Management in Dark Kitchens: What Lies Behind Informality — Diogo Thimoteo da Cunha (UNICAMP, Brazil)
-          </li>
-          <li data-i18n="prog-d3-s10">
-            <strong>17:20:</strong> Metals exposure from baby food in Mexico — Alejandra Cantoral Preciado (Universidad Iberoamericana, Mexico)
-          </li>
-        </ul>
-      </div>
-
-      <!-- Day 4 -->
-      <div class="card card-highlight-green-left">
-        <h3 class="text-green mb-3" data-i18n="program-day4">
-          Day 4 – Friday, July 3rd
-        </h3>
-        <ul class="list-unstyled list-relaxed">
-          <li data-i18n="prog-d4-s1">
-            <strong>8:00 - 18:00:</strong> Welcome and Introductions
-          </li>
-          <li data-i18n="prog-d4-s2">
-            <strong>8:30:</strong> Mini-course 4: Risk communication plan: key elements — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)
-          </li>
-          <li data-i18n="prog-d4-s3">
-            <strong>12:00:</strong> Lunch time (self-arranged)
-          </li>
-          <li data-i18n="prog-d4-s4">
-            <strong>13:30:</strong> Challenges in proposing changes to the information entered in GEMS/Food — Luc Ingenbleek (WHO, Switzerland) - virtual
-          </li>
-          <li data-i18n="prog-d4-s5">
-            <strong>14:10:</strong> Risk assessment of substances formed during food processing — Adriana Pavesi A. Bragotto (UNICAMP, Brazil)
-          </li>
-          <li data-i18n="prog-d4-s6">
-            <strong>14:50:</strong> From risk assessment to risk communication: lessons learned and progress of the Chilean Agency for Food Safety and Quality (ACHIPIA) — Constanza Avello Lefno (ACHIPIA, Chile)
-          </li>
-          <li data-i18n="prog-d4-s7">
-            <strong>15:30:</strong> Coffee break
-          </li>
-          <li data-i18n="prog-d4-s8">
-            <strong>16:00:</strong> Risk assessment of pesticide — Adriana Torres de Sousa (ANVISA, Brazil)
-          </li>
-          <li data-i18n="prog-d4-s9">
-            <strong>16:40:</strong> Bioactive amines in food — Maria Beatriz Abreu Glória (UFMG, Brazil)
-          </li>
-          <li data-i18n="prog-d4-s10">
-            <strong>17:20:</strong> Infographics presentation and announcement of the Award of the Infographic Contest
-          </li>
-          <li data-i18n="prog-d4-s11">
-            <strong>17:30:</strong> Presentation of the Award of the Best Posters — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga
-          </li>
-          <li data-i18n="prog-d4-s12">
-            <strong>17:45:</strong> Closing Remarks and Final Thoughts
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="registration">
-    <div class="container">
-      <h2 class="section-title" data-i18n="registration-title">
-        Registration
-      </h2>
-      <div class="card card-highlight-green">
-        <h3 data-i18n="registration-subtitle">Secure your spot</h3>
-        <p data-i18n="registration-p1">
-          The symposium is intended for professionals, researchers, and
-          academics engaged in food safety issues in Latin America and the
-          Caribbean, representing government, academic, and industry sectors.
-          Applications for participation in LARAS 2026 will be accepted until
-          <strong>June 29, 2026</strong>, or until all
-          <strong>available places</strong> have been filled. Early submission
-          is strongly recommended, as <strong>places are limited</strong>.
-        </p>
-        <br />
-
-        <a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
-          target="_blank" class="btn btn-primary" data-i18n="registration-btn">Go to Registration Form</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="abstracts" class="bg-grey">
-    <div class="container">
-      <h2 class="section-title" data-i18n="abstracts-title">
-        Abstracts and posters
-      </h2>
-
-      <div class="card card-highlight-red mb-3">
-        <h3 data-i18n="deadlines-title">Attention to deadlines</h3>
-        <ul class="list-unstyled list-relaxed">
-          <li data-i18n="deadline-abstracts">
-            ● <strong>Submission of abstracts:</strong> March 15, 2026 (<a
+          <div class="hero-actions">
+            <a
               href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
-              target="_blank">https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/</a>).
-          </li>
-          <li data-i18n="deadline-results">
-            ● <strong>Result of Approved Abstracts:</strong> will be announced
-            by April 30, 2026.
-          </li>
-        </ul>
-      </div>
-
-      <div class="grid-3">
-        <div class="card col-span-2 flex-col-between">
-          <div>
-            <h3 data-i18n="guidelines-title">General Guidelines</h3>
-            <p data-i18n="guidelines-p1">
-              Abstract submissions must be made online, in the registrant area
-              on the event's official website. Each registration entitles the
-              submission of one paper as the main author.
-            </p>
-            <p data-i18n="guidelines-p2">
-              Abstracts of scientific papers may be registered, strictly
-              observing the rules of this regulation, referring to the areas
-              below:
-            </p>
-            <ul class="mb-2 pl-4">
-              <li data-i18n="area-1">Risk Assessment</li>
-              <li data-i18n="area-2">Risk Management</li>
-              <li data-i18n="area-3">Risk Communication</li>
-            </ul>
-          </div>
-          <div>
-            <a href="https://docs.google.com/document/d/1cEltNRz2r14ki_DIFNwmF2qZTTGDHLqK8hl_Jlhm6sE/edit?usp=drivesdk"
-              target="_blank" class="btn btn-secondary" data-i18n="guidelines-btn">Abstract template and guidelines</a>
-          </div>
-        </div>
-
-        <div class="card col-span-2 flex-col-between">
-          <div>
-            <h3 data-i18n="poster-guide-title">
-              Guide for poster presentations
-            </h3>
-            <p data-i18n="poster-guide-p1">
-              The poster's content should be clear and concise.
-            </p>
-            <p data-i18n="poster-guide-p2">
-              The authors are responsible for creating and printing the
-              posters in the format indicated in the template (Recommended
-              size: H: 0.90 m x W: 0.70 m, vertical format). Each work will
-              have a specific day and time for setup and presentation, which
-              will be announced in advance by the Scientific Committee.
-            </p>
-            <p data-i18n="poster-guide-p3">
-              The presenting author must be available at the poster on the
-              date and time indicated throughout the entire session. An
-              evaluation committee will be established by the Scientific
-              Committee to assess the submissions.
-            </p>
-          </div>
-          <div>
-            <a href="#" target="_blank" class="btn btn-secondary" data-i18n="poster-btn">Posters template</a>
+              target="_blank"
+              class="btn btn-primary register-cta-btn"
+              data-i18n="btn-register-cta"
+              >Register Now</a
+            >
+            <a
+              href="#program"
+              class="btn program-cta-btn"
+              data-i18n="btn-program-cta"
+              >View Program</a
+            >
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="contest">
-    <div class="container">
-      <h2 class="section-title" data-i18n="contest-title">Contest</h2>
-      <div class="card bg-grey card-highlight-green-left">
-        <h3 class="text-green text-1_8 mb-1" data-i18n="contest-subtitle">
-          LARAS 2026 Infographic Contest
+    <section id="welcome">
+      <div class="container">
+        <h2 class="section-title" data-i18n="welcome-title">Welcome</h2>
+        <div class="welcome-content text-dark">
+          <h3 class="text-green mb-2" data-i18n="welcome-subtitle">
+            Welcome to LARAS 2026 - The 4th Latin American and Caribbean Risk
+            Assessment Symposium
+          </h3>
+
+          <p data-i18n="welcome-p1">
+            It is with great enthusiasm that we announce the
+            <strong
+              >4th Latin American and Caribbean Risk Assessment Symposium
+              (LARAS)</strong
+            >! Over the last years, LARAS has become one of the most important
+            forums for discussion and knowledge exchange in the field of Risk
+            Analysis for food safety across Latin America and the Caribbean.
+          </p>
+          <br />
+          <p data-i18n="welcome-p2">
+            The 2026 edition will take place from
+            <strong>June 30 to July 3</strong> at the Faculty of Pharmacy,
+            Federal University of Minas Gerais (UFMG), Brazil, under the central
+            theme <strong>“Food Safety Based on Science”</strong> — the very
+            foundation of Risk Analysis.
+          </p>
+          <br />
+          <p data-i18n="welcome-p3">
+            Risk analysis in the food sector brings together diverse
+            stakeholders — from regulation, research, and production to
+            consumption. In this broad and dynamic context, open communication
+            among all parties is essential to ensure both safety and trust.
+            Guided by this principle, LARAS stands as a bridge, fostering
+            dialogue, collaboration, and shared progress to strengthen food
+            safety in our region.
+          </p>
+          <br />
+          <p data-i18n="welcome-p4">
+            More than just a scientific meeting, LARAS is a unique opportunity
+            to recognize the similarities and differences among countries,
+            understand the challenges faced, and learn from the strategies
+            developed throughout the region. This international exchange
+            enriches the science of Risk Analysis and inspires new initiatives,
+            strategic partnerships, and collaborative solutions among experts.
+          </p>
+          <br />
+          <p data-i18n="welcome-p5">
+            In this edition, we reaffirm our tradition of quality, scientific
+            excellence, and cooperation, working to advance knowledge and
+            promote innovation in food risk assessment.
+          </p>
+          <br />
+          <p data-i18n="welcome-p6">
+            We warmly invite you to join us for this inspiring event and to be
+            part of building a future in which Risk Analysis serves as the
+            cornerstone of actions that ensure safe food for all.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="committees" class="bg-grey">
+      <div class="container">
+        <h2 class="section-title" data-i18n="committees-title">Committees</h2>
+        <h3 class="mb-3" data-i18n="organizing-committee">
+          Organizing Committee
         </h3>
-        <p class="mb-2 text-1_1 text-muted">
-          <strong data-i18n="contest-topic">Topic:</strong>
-          <span class="text-dark" data-i18n="contest-topic-detail">Microplastics: A One Health Approach</span>
-        </p>
-
-        <p data-i18n="contest-p1">
-          Infographics are a powerful and dynamic platform for presenting
-          complex information in a visually captivating, clear, and creative
-          manner. This year’s contest invites participants to explore
-          <strong>microplastics</strong> and their impact on human, animal,
-          and environmental health through a
-          <strong>One Health perspective</strong>.
-        </p>
-
-        <div class="deadline-alert-yellow" data-i18n="contest-deadline">
-          DEADLINE TO SUBMIT YOUR INFOGRAPHIC: May 4, 2026
+        <div class="grid-3 mb-4">
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Flávia.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Flávia Beatriz Custódio</h4>
+            <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Lígia Lindner Schreiner</h4>
+            <p class="text-muted" data-i18n="inst-anvisa-br">ANVISA, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Leiliane Coelho André</h4>
+            <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Maria Aparecida Vieira Teixeira Garcia</h4>
+            <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Maria José Nunes de Paiva</h4>
+            <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Patrícia Diniz Andrade</h4>
+            <p class="text-muted" data-i18n="inst-unb-br">UnB, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Ana Cristina Briones Rodriguez</h4>
+            <p class="text-muted" data-i18n="inst-ucr-cr">UCR, Costa Rica</p>
+          </div>
         </div>
 
-        <p class="italic text-muted text-1_1" data-i18n="contest-disclaimer">
-          Infographics must be original creations; no copyrighted images may
-          be used. Participants must certify and warrant that the submitted
-          infographic does not violate the rights of third parties or any
-          copyrights.
-        </p>
-
-        <div class="action-buttons">
-          <a href="https://drive.google.com/file/d/1IVjmrQEUtZGqN6z_ik1O-XsZwsTUrW6s/view?usp=sharing" target="_blank"
-            class="btn btn-secondary" data-i18n="contest-format-btn">Format & Judging Criteria</a>
-          <a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
-            target="_blank" class="btn btn-primary" data-i18n="contest-submit-btn">Submit Infographic</a>
+        <h3 class="mb-3" data-i18n="scientific-committee">
+          Scientific Committee
+        </h3>
+        <div class="grid-3">
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Verônica.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Verônica Ortiz Alvarenga</h4>
+            <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Larissa Bertollo Gomes Porto</h4>
+            <p class="text-muted">&nbsp;</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Adriana Pavesi.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Adriana Pavesi Arisseto Bragotto</h4>
+            <p class="text-muted" data-i18n="inst-unicamp-br">
+              UNICAMP, Brazil
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/ANDERSON_SANTANA.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Anderson de Souza Sant’Ana</h4>
+            <p class="text-muted" data-i18n="inst-unicamp-br">
+              UNICAMP, Brazil
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Eloísa Dutra Caldas</h4>
+            <p class="text-muted" data-i18n="inst-unb-br">UnB, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Alejandra.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Alejandra de Jesús Cantoral Preciado</h4>
+            <p class="text-muted" data-i18n="inst-ibero-mx">IBERO, Mexico</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Arícia Mara Melo Possas</h4>
+            <p class="text-muted" data-i18n="inst-uco-es">UCO, Spain</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Constanza DTU.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Constanza De Matteu Monteiro</h4>
+            <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Eliseu.jpeg&quot;)"
+            ></div>
+            <h4 class="mb-1">Eliseu Verly Junior</h4>
+            <p class="text-muted" data-i18n="inst-uerj-br">UERJ, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Liliana Rocha.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Liliana de Oliveira Rocha</h4>
+            <p class="text-muted" data-i18n="inst-unicamp-br">
+              UNICAMP, Brazil
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Marta Hiromi Taniwaki</h4>
+            <p class="text-muted" data-i18n="inst-ital-br">ITAL, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/SaraPires1 .jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Sara Monteiro Pires</h4>
+            <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="location" class="bg-grey">
-    <div class="container">
-      <h2 class="section-title" data-i18n="location-title">Location</h2>
-
-      <div class="card card-highlight-grey italic mb-3">
-        <h3 data-i18n="accommodation-note-title">Note on Accommodation</h3>
-        <p data-i18n="accommodation-note-p1">
-          The hotels listed are not affiliated with LARAS 2026. They are
-          provided solely for convenience. Organizers do not guarantee the
-          quality of services. Attendees are encouraged to verify details
-          independently.
-        </p>
+    <section id="speakers">
+      <div class="container">
+        <h2 class="section-title" data-i18n="speakers-title">Speakers</h2>
+        <div class="grid-3">
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-1.webp&quot;)"
+            ></div>
+            <h4 class="mb-1">Adriana Pavesi Arisseto Bragotto</h4>
+            <p class="text-muted" data-i18n="inst-unicamp-br">
+              UNICAMP, Brazil
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="
+                background: url(&quot;images/Photo_Adriana Torres_Anvisa Brasil.jpg&quot;);
+              "
+            ></div>
+            <h4 class="mb-1">Adriana Torres de Sousa</h4>
+            <p class="text-muted" data-i18n="inst-anvisa-br">ANVISA, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Alejandra.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Alejandra de Jesús Cantoral Preciado</h4>
+            <p class="text-muted" data-i18n="inst-ibero-mx">IBERO, Mexico</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Ana Cristina Briones</h4>
+            <p class="text-muted" data-i18n="inst-ucr-cr">UCR, Costa Rica</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">André Luís de Sousa dos Santos</h4>
+            <p class="text-muted" data-i18n="inst-paho-br">PAHO, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Arícia Mara Melo Possas</h4>
+            <p class="text-muted" data-i18n="inst-uco-es">UCO, Spain</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-2.webp&quot;)"
+            ></div>
+            <h4 class="mb-1">Bettina Dabrowski-de-Flores</h4>
+            <p class="text-muted" data-i18n="inst-bfr-de">BfR, Germany</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Constanza DTU.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Constanza De Matteu Monteiro</h4>
+            <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Constanza Achipia.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Constanza Paz Avello Lefno</h4>
+            <p class="text-muted" data-i18n="inst-achipia-cl">ACHIPIA, Chile</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-5.webp&quot;)"
+            ></div>
+            <h4 class="mb-1">Denise Bloch</h4>
+            <p class="text-muted" data-i18n="inst-ilmerac-bfr-de">
+              ILMERAC - BfR, Germany
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Diogo.jpeg&quot;)"
+            ></div>
+            <h4 class="mb-1">Diogo Thimoteo da Cunha</h4>
+            <p class="text-muted" data-i18n="inst-unicamp-br">
+              UNICAMP, Brazil
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Eliseu.jpeg&quot;)"
+            ></div>
+            <h4 class="mb-1">Eliseu Verly Júnior</h4>
+            <p class="text-muted" data-i18n="inst-uerj-br">UERJ, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">José Vicente Tarazona Lafarga</h4>
+            <p class="text-muted" data-i18n="inst-usciii-es">USCIII, Spain</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="
+                background: url(&quot;images/Juliana de Oliveira Mota.jpeg&quot;);
+              "
+            ></div>
+            <h4 class="mb-1">Juliana de Oliveira Mota</h4>
+            <p class="text-muted" data-i18n="inst-who-ch">WHO, Switzerland</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Lígia Lindner Schreiner</h4>
+            <p class="text-muted" data-i18n="inst-anvisa-br">ANVISA, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Liliana Rocha.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Liliana de Oliveira Rocha</h4>
+            <p class="text-muted" data-i18n="inst-unicamp-br">
+              UNICAMP, Brazil
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Lissette Marroquin</h4>
+            <p class="text-muted" data-i18n="inst-oirsa-do">
+              OIRSA, Dominican Republic
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Dr Luc Ingenbleek.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Luc Ingenbleek</h4>
+            <p class="text-muted" data-i18n="inst-who-ch">WHO, Switzerland</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Marciane.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Marciane Magnani</h4>
+            <p class="text-muted" data-i18n="inst-ufpb-br">UFPB, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Maria Beatriz Abreu Glória</h4>
+            <p class="text-muted" data-i18n="inst-ufmg-br">UFMG, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-x.png&quot;)"
+            ></div>
+            <h4 class="mb-1">Marta Hiromi Taniwaki</h4>
+            <p class="text-muted" data-i18n="inst-ital-br">ITAL, Brazil</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-9.webp&quot;)"
+            ></div>
+            <h4 class="mb-1">Matthias Filter</h4>
+            <p class="text-muted" data-i18n="inst-bfr-de">BfR, Germany</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/Raúl Peralta.jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Raúl Peralta</h4>
+            <p class="text-muted" data-i18n="inst-oirsa-do">
+              OIRSA, Dominican Republic
+            </p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/SaraPires1 .jpg&quot;)"
+            ></div>
+            <h4 class="mb-1">Sara Monteiro Pires</h4>
+            <p class="text-muted" data-i18n="inst-dtu-dk">DTU, Denmark</p>
+          </div>
+          <div class="card text-center">
+            <div
+              class="speaker-img"
+              style="background: url(&quot;images/person-12.webp&quot;)"
+            ></div>
+            <h4 class="mb-1">Umida Masharipova</h4>
+            <p class="text-muted" data-i18n="inst-ilmerac-bfr-de">
+              ILMERAC - BfR, Germany
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <h3 class="mb-2" data-i18n="recommended-accommodation">
-        Recommended Accommodation
-      </h3>
-
-      <div id="hotels-container" class="grid-3"></div>
-
-      <div class="card col-span-2 flex-col-between mt-4">
-        <div>
-          <h3 data-i18n="immig-title">Immigration Requirements</h3>
-          <ul class="pl-4">
-            <li data-i18n="immig-list-1">
-              Valid passport (min. 6 months) with one blank page.
+    <section id="program" class="bg-grey">
+      <div class="container">
+        <h2 class="section-title" data-i18n="program-title">Program</h2>
+        <!-- Day 1 -->
+        <div class="card card-highlight-green-left mb-3">
+          <h3 class="text-green mb-3" data-i18n="program-day1">
+            Day 1 – Tuesday June 30th
+          </h3>
+          <ul class="list-unstyled list-relaxed">
+            <li data-i18n="prog-d1-s1">
+              <strong>8:00 - 18:00:</strong> Welcome, Registration and
+              Introductions
             </li>
-            <li data-i18n="immig-list-2">
-              Latin American and EU citizens do not need a visa.
+            <li data-i18n="prog-d1-s2">
+              <strong>8:30:</strong> Mini-course 1: Risks and Benefits
+              Assessment of Food Consumption - part I — Juliana de Oliveira Mota
+              (WHO, Switzerland)
             </li>
-            <li data-i18n="immig-list-3">
-              <strong>U.S. citizens must apply for an e-visa before
-                traveling</strong>.
+            <li data-i18n="prog-d1-s3">
+              <strong>12:00:</strong> Lunch time (self-arranged)
             </li>
-            <li data-i18n="immig-list-4">
-              Proof of accommodation, funds, and return ticket required.
+            <li data-i18n="prog-d1-s4">
+              <strong>13:30:</strong> Opening Ceremony
+            </li>
+            <li data-i18n="prog-d1-s5">
+              <strong>14:10:</strong> Application of Al in risk assessment:
+              examples and upcoming opportunities — Matthias Filter (BfR,
+              Germany)
+            </li>
+            <li data-i18n="prog-d1-s6">
+              <strong>14:50:</strong> Risk-benefit assessment of foods and
+              diets: developments and perspectives — Sara Monteiro Pires (DTU,
+              Denmark)
+            </li>
+            <li data-i18n="prog-d1-s7">
+              <strong>15:30:</strong> Microbiological risk assessment of viruses
+              in foods: food attribution, analytical methods and indicators —
+              Marciane Magnani (UFPB, Brazil)
+            </li>
+            <li data-i18n="prog-d1-s8">
+              <strong>16:10:</strong> Coffee break and posters exposition
+            </li>
+            <li data-i18n="prog-d1-s9">
+              <strong>16:40:</strong> Round table - Regional and Multilateral
+              Collaboration — André Luis de Sousa dos Santos (OPAS, Brazil);
+              Bettina Dabrowski-de-Flores (BfR, Germany); Umida Masharipova
+              (ILMERAC/BfR, Germany); Raúl Peralta (OIRSA, Dominican Republic)
+            </li>
+            <li data-i18n="prog-d1-s10">
+              <strong>18:30:</strong> Welcome reception
             </li>
           </ul>
-          <p data-i18n="immig-note">
-            For the most accurate and up-to-date information, visit the
-            official website of the Brazilian Ministry of Foreign Affairs:
-          </p>
         </div>
-        <div>
-          <a href="https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos" target="_blank"
-            class="btn btn-secondary" data-i18n="immig-btn">Official Ministry Website</a>
+
+        <!-- Day 2 -->
+        <div class="card card-highlight-green-left mb-3">
+          <h3 class="text-green mb-3" data-i18n="program-day2">
+            Day 2 – Wednesday, July 1st
+          </h3>
+          <ul class="list-unstyled list-relaxed">
+            <li data-i18n="prog-d2-s1">
+              <strong>8:00 - 18:00:</strong> Welcome, Registration and
+              Introductions
+            </li>
+            <li data-i18n="prog-d2-s2">
+              <strong>8:30:</strong> Mini-course 1: Risks and Benefits
+              Assessment of Food Consumption - part II — Juliana de Oliveira
+              Mota (WHO, Switzerland)
+            </li>
+            <li data-i18n="prog-d2-s3">
+              <strong>8:30:</strong> Mini-course 2: Regional Needs and
+              Opportunities for Risk Assessment Cooperation in Latin America —
+              Bettina Dabrowski-de-Flores (BfR, Germany); Umida Masharipova
+              (ILMERAC/BfR, Germany)
+            </li>
+            <li data-i18n="prog-d2-s4">
+              <strong>12:00:</strong> Lunch time (self-arranged)
+            </li>
+            <li data-i18n="prog-d2-s5">
+              <strong>13:30:</strong> New Approach Methods (NAMs) in Next-
+              Generation Risk Assessment (NGRA) — José Vicente Tarazona Lafarga
+              (ISCIII, Spain)
+            </li>
+            <li data-i18n="prog-d2-s6">
+              <strong>14:10:</strong> A digital tool, developed by OIRSA, for
+              probabilistic analysis of food exposure to chemical contaminants —
+              Raúl Peralta (OIRSA, Dominican Republic); Lissette Marroquin
+              (OIRSA)
+            </li>
+            <li data-i18n="prog-d2-s7">
+              <strong>14:50:</strong> Use of national food consumption databases
+              for risk assessment — Eliseu Verly Júnior (UERJ, Brazil)
+            </li>
+            <li data-i18n="prog-d2-s8">
+              <strong>15:30:</strong> From Experimental Evidence to Decision-
+              Making: Bioassays in Risk Assessment — Cristina Briones (UCR,
+              Costa Rica)
+            </li>
+            <li data-i18n="prog-d2-s9">
+              <strong>16:10:</strong> Coffee break and posters exposition
+            </li>
+            <li data-i18n="prog-d2-s10">
+              <strong>16:40:</strong> Comics as a risk communication strategy —
+              Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)
+            </li>
+            <li data-i18n="prog-d2-s11">
+              <strong>17:20:</strong> Round table - Mycotoxins — Marta Hiromi
+              Taniwaki (ITAL, Brazil); Liliana O. Rocha (UNICAMP, Brazil); Lígia
+              L. Schreiner (ANVISA, Brazil)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="card card-highlight-green-left mb-3">
+          <h3 class="text-green mb-3" data-i18n="program-day3">
+            Day 3 – Thursday, July 2nd
+          </h3>
+          <ul class="list-unstyled list-relaxed">
+            <li data-i18n="prog-d3-s1">
+              <strong>8:00 - 18:00:</strong> Welcome, Registration and
+              Introductions
+            </li>
+            <li data-i18n="prog-d3-s2">
+              <strong>8:30:</strong> Mini-course 3: How to develop a risk
+              communication strategy — Cláudio Canales (BfR, Germany); Frederic
+              Müller (BfR, Germany)
+            </li>
+            <li data-i18n="prog-d3-s3">
+              <strong>12:00:</strong> Lunch time (self-arranged)
+            </li>
+            <li data-i18n="prog-d3-s4">
+              <strong>13:30:</strong> How ILMERAC drives the global
+              implementation of NAMs - key activities and collaborations —
+              Denise Bloch (ILMERAC/BfR, Germany)
+            </li>
+            <li data-i18n="prog-d3-s5">
+              <strong>14:10:</strong> Integrating methods to assess the impacts
+              of regulation on food consumption and health — Constanza de Matteu
+              Monteiro (DTU, Denmark)
+            </li>
+            <li data-i18n="prog-d3-s6">
+              <strong>14:50:</strong> Update to document EHC 240 — Juliana de
+              Oliveira Mota (WHO, Switzerland)
+            </li>
+            <li data-i18n="prog-d3-s7">
+              <strong>15:30:</strong> Microbiological risk assessment — Arícia
+              Mara Possas (UCO, Spain)
+            </li>
+            <li data-i18n="prog-d3-s8">
+              <strong>16:10:</strong> Coffee break and posters exposition
+            </li>
+            <li data-i18n="prog-d3-s9">
+              <strong>16:40:</strong> Food Safety Management in Dark Kitchens:
+              What Lies Behind Informality — Diogo Thimoteo da Cunha (UNICAMP,
+              Brazil)
+            </li>
+            <li data-i18n="prog-d3-s10">
+              <strong>17:20:</strong> Metals exposure from baby food in Mexico —
+              Alejandra Cantoral Preciado (Universidad Iberoamericana, Mexico)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="card card-highlight-green-left">
+          <h3 class="text-green mb-3" data-i18n="program-day4">
+            Day 4 – Friday, July 3rd
+          </h3>
+          <ul class="list-unstyled list-relaxed">
+            <li data-i18n="prog-d4-s1">
+              <strong>8:00 - 18:00:</strong> Welcome and Introductions
+            </li>
+            <li data-i18n="prog-d4-s2">
+              <strong>8:30:</strong> Mini-course 4: Risk communication plan: key
+              elements — Cláudio Canales (BfR, Germany); Frederic Müller (BfR,
+              Germany)
+            </li>
+            <li data-i18n="prog-d4-s3">
+              <strong>12:00:</strong> Lunch time (self-arranged)
+            </li>
+            <li data-i18n="prog-d4-s4">
+              <strong>13:30:</strong> Challenges in proposing changes to the
+              information entered in GEMS/Food — Luc Ingenbleek (WHO,
+              Switzerland) - virtual
+            </li>
+            <li data-i18n="prog-d4-s5">
+              <strong>14:10:</strong> Risk assessment of substances formed
+              during food processing — Adriana Pavesi A. Bragotto (UNICAMP,
+              Brazil)
+            </li>
+            <li data-i18n="prog-d4-s6">
+              <strong>14:50:</strong> From risk assessment to risk
+              communication: lessons learned and progress of the Chilean Agency
+              for Food Safety and Quality (ACHIPIA) — Constanza Avello Lefno
+              (ACHIPIA, Chile)
+            </li>
+            <li data-i18n="prog-d4-s7"><strong>15:30:</strong> Coffee break</li>
+            <li data-i18n="prog-d4-s8">
+              <strong>16:00:</strong> Risk assessment of pesticide — Adriana
+              Torres de Sousa (ANVISA, Brazil)
+            </li>
+            <li data-i18n="prog-d4-s9">
+              <strong>16:40:</strong> Bioactive amines in food — Maria Beatriz
+              Abreu Glória (UFMG, Brazil)
+            </li>
+            <li data-i18n="prog-d4-s10">
+              <strong>17:20:</strong> Infographics presentation and announcement
+              of the Award of the Infographic Contest
+            </li>
+            <li data-i18n="prog-d4-s11">
+              <strong>17:30:</strong> Presentation of the Award of the Best
+              Posters — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga
+            </li>
+            <li data-i18n="prog-d4-s12">
+              <strong>17:45:</strong> Closing Remarks and Final Thoughts
+            </li>
+          </ul>
         </div>
       </div>
+    </section>
 
-      <h3 class="mt-4" data-i18n="touristic-title">Touristic Suggestion</h3>
-      <p class="mb-3">
-        <em data-i18n="touristic-guide-text">Check out our practical guide for visitors:</em><br />
-        <a href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/belotur/2021/guia_pratico_jan_2021.pdf"
-          target="_blank" class="text-primary font-bold">
-          <i class="bi bi-file-earmark-pdf-fill"></i>
-          <span data-i18n="touristic-guide-btn">Practical Guide (PDF)</span>
-        </a>
-      </p>
+    <section id="registration">
+      <div class="container">
+        <h2 class="section-title" data-i18n="registration-title">
+          Registration
+        </h2>
+        <div class="card card-highlight-green">
+          <h3 data-i18n="registration-subtitle">Secure your spot</h3>
+          <p data-i18n="registration-p1">
+            The symposium is intended for professionals, researchers, and
+            academics engaged in food safety issues in Latin America and the
+            Caribbean, representing government, academic, and industry sectors.
+            Applications for participation in LARAS 2026 will be accepted until
+            <strong>June 29, 2026</strong>, or until all
+            <strong>available places</strong> have been filled. Early submission
+            is strongly recommended, as <strong>places are limited</strong>.
+          </p>
+          <br />
 
-      <h4 class="mt-3 text-muted text-1_5" data-i18n="touristic-bh">
-        In Belo Horizonte:
-      </h4>
-      <div id="touristic-bh-container" class="grid-3"></div>
+          <a
+            href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
+            target="_blank"
+            class="btn btn-primary"
+            data-i18n="registration-btn"
+            >Go to Registration Form</a
+          >
+        </div>
+      </div>
+    </section>
 
-      <h4 class="mt-4 text-muted text-1_5" data-i18n="touristic-near">
-        Close to Belo Horizonte:
-      </h4>
-      <div id="touristic-near-container" class="grid-3"></div>
-    </div>
-  </section>
+    <section id="abstracts" class="bg-grey">
+      <div class="container">
+        <h2 class="section-title" data-i18n="abstracts-title">
+          Abstracts and posters
+        </h2>
 
-  <section id="organizers">
-    <div class="container">
-      <h2 class="section-title" data-i18n="organizers-title">Organizers</h2>
-      <div class="logo-grid" style="
+        <div class="card card-highlight-red mb-3">
+          <h3 data-i18n="deadlines-title">Attention to deadlines</h3>
+          <ul class="list-unstyled list-relaxed">
+            <li data-i18n="deadline-abstracts">
+              ● <strong>Submission of abstracts:</strong> April 24, 2026 (<a
+                href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
+                target="_blank"
+                >https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/</a
+              >).
+            </li>
+            <li data-i18n="deadline-results">
+              ● <strong>Result of Approved Abstracts:</strong> until May 15,
+              2026
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-3">
+          <div class="card col-span-2 flex-col-between">
+            <div>
+              <h3 data-i18n="guidelines-title">General Guidelines</h3>
+              <p data-i18n="guidelines-p1">
+                Abstract submissions must be made online, in the registrant area
+                on the event's official website. Each registration entitles the
+                submission of one paper as the main author.
+              </p>
+              <p data-i18n="guidelines-p2">
+                Abstracts of scientific papers may be registered, strictly
+                observing the rules of this regulation, referring to the areas
+                below:
+              </p>
+              <ul class="mb-2 pl-4">
+                <li data-i18n="area-1">Risk Assessment</li>
+                <li data-i18n="area-2">Risk Management</li>
+                <li data-i18n="area-3">Risk Communication</li>
+              </ul>
+            </div>
+            <div>
+              <a
+                href="https://docs.google.com/document/d/1cEltNRz2r14ki_DIFNwmF2qZTTGDHLqK8hl_Jlhm6sE/edit?usp=drivesdk"
+                target="_blank"
+                class="btn btn-secondary"
+                data-i18n="guidelines-btn"
+                >Abstract template and guidelines</a
+              >
+            </div>
+          </div>
+
+          <div class="card col-span-2 flex-col-between">
+            <div>
+              <h3 data-i18n="poster-guide-title">
+                Guide for poster presentations
+              </h3>
+              <p data-i18n="poster-guide-p1">
+                The poster's content should be clear and concise.
+              </p>
+              <p data-i18n="poster-guide-p2">
+                The authors are responsible for creating and printing the
+                posters in the format indicated in the template (Recommended
+                size: H: 0.90 m x W: 0.70 m, vertical format). Each work will
+                have a specific day and time for setup and presentation, which
+                will be announced in advance by the Scientific Committee.
+              </p>
+              <p data-i18n="poster-guide-p3">
+                The presenting author must be available at the poster on the
+                date and time indicated throughout the entire session. An
+                evaluation committee will be established by the Scientific
+                Committee to assess the submissions.
+              </p>
+            </div>
+            <div>
+              <a
+                href="#"
+                target="_blank"
+                class="btn btn-secondary"
+                data-i18n="poster-btn"
+                >Posters template</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contest">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contest-title">Contest</h2>
+        <div class="card bg-grey card-highlight-green-left">
+          <h3 class="text-green text-1_8 mb-1" data-i18n="contest-subtitle">
+            LARAS 2026 Infographic Contest
+          </h3>
+          <p class="mb-2 text-1_1 text-muted">
+            <strong data-i18n="contest-topic">Topic:</strong>
+            <span class="text-dark" data-i18n="contest-topic-detail"
+              >Microplastics: A One Health Approach</span
+            >
+          </p>
+
+          <p data-i18n="contest-p1">
+            Infographics are a powerful and dynamic platform for presenting
+            complex information in a visually captivating, clear, and creative
+            manner. This year’s contest invites participants to explore
+            <strong>microplastics</strong> and their impact on human, animal,
+            and environmental health through a
+            <strong>One Health perspective</strong>.
+          </p>
+
+          <div class="deadline-alert-yellow" data-i18n="contest-deadline">
+            DEADLINE TO SUBMIT YOUR INFOGRAPHIC: May 4, 2026
+          </div>
+
+          <p class="italic text-muted text-1_1" data-i18n="contest-disclaimer">
+            Infographics must be original creations; no copyrighted images may
+            be used. Participants must certify and warrant that the submitted
+            infographic does not violate the rights of third parties or any
+            copyrights.
+          </p>
+
+          <div class="action-buttons">
+            <a
+              href="https://drive.google.com/file/d/1IVjmrQEUtZGqN6z_ik1O-XsZwsTUrW6s/view?usp=sharing"
+              target="_blank"
+              class="btn btn-secondary"
+              data-i18n="contest-format-btn"
+              >Format & Judging Criteria</a
+            >
+            <a
+              href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/"
+              target="_blank"
+              class="btn btn-primary"
+              data-i18n="contest-submit-btn"
+              >Submit Infographic</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="bg-grey">
+      <div class="container">
+        <h2 class="section-title" data-i18n="location-title">Location</h2>
+
+        <div class="card card-highlight-grey italic mb-3">
+          <h3 data-i18n="accommodation-note-title">Note on Accommodation</h3>
+          <p data-i18n="accommodation-note-p1">
+            The hotels listed are not affiliated with LARAS 2026. They are
+            provided solely for convenience. Organizers do not guarantee the
+            quality of services. Attendees are encouraged to verify details
+            independently.
+          </p>
+        </div>
+
+        <h3 class="mb-2" data-i18n="recommended-accommodation">
+          Recommended Accommodation
+        </h3>
+
+        <div id="hotels-container" class="grid-3"></div>
+
+        <div class="card col-span-2 flex-col-between mt-4">
+          <div>
+            <h3 data-i18n="immig-title">Immigration Requirements</h3>
+            <ul class="pl-4">
+              <li data-i18n="immig-list-1">
+                Valid passport (min. 6 months) with one blank page.
+              </li>
+              <li data-i18n="immig-list-2">
+                Latin American and EU citizens do not need a visa.
+              </li>
+              <li data-i18n="immig-list-3">
+                <strong
+                  >U.S. citizens must apply for an e-visa before
+                  traveling</strong
+                >.
+              </li>
+              <li data-i18n="immig-list-4">
+                Proof of accommodation, funds, and return ticket required.
+              </li>
+            </ul>
+            <p data-i18n="immig-note">
+              For the most accurate and up-to-date information, visit the
+              official website of the Brazilian Ministry of Foreign Affairs:
+            </p>
+          </div>
+          <div>
+            <a
+              href="https://www.gov.br/mre/pt-br/assuntos/portal-consular/vistos"
+              target="_blank"
+              class="btn btn-secondary"
+              data-i18n="immig-btn"
+              >Official Ministry Website</a
+            >
+          </div>
+        </div>
+
+        <h3 class="mt-4" data-i18n="touristic-title">Touristic Suggestion</h3>
+        <p class="mb-3">
+          <em data-i18n="touristic-guide-text"
+            >Check out our practical guide for visitors:</em
+          ><br />
+          <a
+            href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/belotur/2021/guia_pratico_jan_2021.pdf"
+            target="_blank"
+            class="text-primary font-bold"
+          >
+            <i class="bi bi-file-earmark-pdf-fill"></i>
+            <span data-i18n="touristic-guide-btn">Practical Guide (PDF)</span>
+          </a>
+        </p>
+
+        <h4 class="mt-3 text-muted text-1_5" data-i18n="touristic-bh">
+          In Belo Horizonte:
+        </h4>
+        <div id="touristic-bh-container" class="grid-3"></div>
+
+        <h4 class="mt-4 text-muted text-1_5" data-i18n="touristic-near">
+          Close to Belo Horizonte:
+        </h4>
+        <div id="touristic-near-container" class="grid-3"></div>
+      </div>
+    </section>
+
+    <section id="organizers">
+      <div class="container">
+        <h2 class="section-title" data-i18n="organizers-title">Organizers</h2>
+        <div
+          class="logo-grid"
+          style="
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             max-width: 800px;
             margin-left: auto;
             margin-right: auto;
-          ">
-        <div class="logo-item" style="
+          "
+        >
+          <div
+            class="logo-item"
+            style="
               background-image: url(&quot;images/principal_completa_ufmg(1).jpg&quot;);
-            ">
-          <a href="https://www.ufmg.br/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="UFMG"></a>
-        </div>
+            "
+          >
+            <a
+              href="https://www.ufmg.br/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="UFMG"
+            ></a>
+          </div>
 
-        <div class="logo-item" style="background-image: url(&quot;images/Logo.Anvisa.png&quot;)">
-          <a href="https://www.gov.br/anvisa/pt-br" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="Anvisa"></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="supporters" class="bg-grey">
-    <div class="container">
-      <h2 class="section-title" data-i18n="supporters-title">Supporters</h2>
-      <div class="logo-grid">
-        <div class="logo-item" style="
-              background-image: url(&quot;images/logo_ppgca_UFMG.jpeg&quot;);
-            ">
-          <a href="https://www.farmacia.ufmg.br/ppgca/" target="_blank"
-            style="display: block; width: 100%; height: 100%" title="PPGCA UFMG"></a>
-        </div>
-        <div class="logo-item" style="
-              background-image: url(&quot;images/Logomarca PPGACT.png&quot;);
-            ">
-          <a href="https://www.farmacia.ufmg.br/ppgact/" target="_blank"
-            style="display: block; width: 100%; height: 100%" title="PPGACT UFMG"></a>
-        </div>
-        <div class="logo-item" style="
-              background-image: url(&quot;images/Logo PPGCA UNICAMP.png&quot;);
-            ">
-          <a href="https://www.ppgcaunicamp.com/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="PPGCA UNICAMP"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/PPGCS_UnB.jpeg&quot;)">
-          <a href="https://ppgcs.unb.br/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="PPGCS UnB"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/logo UCR.png&quot;)">
-          <a href="https://www.ucr.ac.cr/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="UCR (Universidad de Costa Rica)"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/logo-fafar.png&quot;)">
-          <a href="https://farmacia.ufmg.br/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="Faculdade de Farmácia - UFMG"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/Logo CAPES.jpg&quot;)">
-          <a href="https://www.gov.br/capes/pt-br" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="CAPES"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/Fapemig.png&quot;)">
-          <a href="https://fapemig.br/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="FAPEMIG"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/logo-opas.png&quot;)">
-          <a href="https://www.paho.org/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="OPAS"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/FAO-logo.svg&quot;)">
-          <a href="https://www.fao.org/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="FAO"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/Logo OIRSA.png&quot;)">
-          <a href="https://web.oirsa.org//" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="OIRSA"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/logo-brf.jpeg&quot;)">
-          <a href="https://www.bfr.bund.de/en/" target="_blank" style="display: block; width: 100%; height: 100%"
-            title="BfR"></a>
-        </div>
-        <div class="logo-item" style="background-image: url(&quot;images/logo-mgap.png&quot;)">
-          <a href="https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/" target="_blank"
-            style="display: block; width: 100%; height: 100%" title="MGAP - Uruguay"></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title" data-i18n="contact-title">Contact</h2>
-      <div class="grid-3">
-        <div class="card col-span-2">
-          <h3 data-i18n="contact-address-title">Venue Address</h3>
-          <p class="text-1_1">
-            <strong data-i18n="contact-venue-1">Auditorium of the Faculty of Pharmacy</strong><br />
-            <span data-i18n="contact-venue-2">Campus Pampulha - Universidade Federal de Minas Gerais
-              (UFMG)</span><br />
-            <span data-i18n="contact-venue-3">Belo Horizonte, Minas Gerais - Brazil</span>
-          </p>
-          <div class="mt-1">
-            <a href="https://maps.google.com/?q=Faculdade+de+Farmacia+UFMG+Belo+Horizonte" target="_blank"
-              class="text-green font-bold" data-i18n="contact-map-link">
-              <i class="bi bi-geo-alt-fill"></i> View on Google Maps
-            </a>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/Logo.Anvisa.png&quot;)"
+          >
+            <a
+              href="https://www.gov.br/anvisa/pt-br"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="Anvisa"
+            ></a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="card">
-          <h3 data-i18n="contact-touch-title">Get in Touch</h3>
-          <ul class="list-unstyled list-relaxed">
-            <li>
-              <i class="bi bi-envelope-fill"></i>
-              <a href="mailto:l.a.riskassessmentsymposium@gmail.com" class="text-inherit"
-                data-i18n="contact-email-link">Email Us</a>
-            </li>
-            <li>
-              <i class="bi bi-instagram"></i>
-              <a href="https://www.instagram.com/laras_event" class="text-inherit" target="_blank"
-                data-i18n="contact-instagram-link">Instagram</a>
-            </li>
-            <li>
-              <i class="bi bi-facebook"></i>
-              <a href="https://www.facebook.com/people/LARAS/61558511390553" class="text-inherit" target="_blank"
-                data-i18n="contact-facebook-link">Facebook</a>
-            </li>
-            <li>
-              <i class="bi bi-linkedin"></i>
-              <a href="https://www.linkedin.com/in/latin-american-and-caribbean-risk-assessment-1501b631a/"
-                class="text-inherit" target="_blank" data-i18n="contact-linkedin-link">LinkedIn</a>
-            </li>
-          </ul>
+    <section id="supporters" class="bg-grey">
+      <div class="container">
+        <h2 class="section-title" data-i18n="supporters-title">Supporters</h2>
+        <div class="logo-grid">
+          <div
+            class="logo-item"
+            style="
+              background-image: url(&quot;images/logo_ppgca_UFMG.jpeg&quot;);
+            "
+          >
+            <a
+              href="https://www.farmacia.ufmg.br/ppgca/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="PPGCA UFMG"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="
+              background-image: url(&quot;images/Logomarca PPGACT.png&quot;);
+            "
+          >
+            <a
+              href="https://www.farmacia.ufmg.br/ppgact/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="PPGACT UFMG"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="
+              background-image: url(&quot;images/Logo PPGCA UNICAMP.png&quot;);
+            "
+          >
+            <a
+              href="https://www.ppgcaunicamp.com/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="PPGCA UNICAMP"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/PPGCS_UnB.jpeg&quot;)"
+          >
+            <a
+              href="https://ppgcs.unb.br/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="PPGCS UnB"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/logo UCR.png&quot;)"
+          >
+            <a
+              href="https://www.ucr.ac.cr/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="UCR (Universidad de Costa Rica)"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/logo-fafar.png&quot;)"
+          >
+            <a
+              href="https://farmacia.ufmg.br/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="Faculdade de Farmácia - UFMG"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/Logo CAPES.jpg&quot;)"
+          >
+            <a
+              href="https://www.gov.br/capes/pt-br"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="CAPES"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/Fapemig.png&quot;)"
+          >
+            <a
+              href="https://fapemig.br/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="FAPEMIG"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/logo-opas.png&quot;)"
+          >
+            <a
+              href="https://www.paho.org/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="OPAS"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/FAO-logo.svg&quot;)"
+          >
+            <a
+              href="https://www.fao.org/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="FAO"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/Logo OIRSA.png&quot;)"
+          >
+            <a
+              href="https://web.oirsa.org//"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="OIRSA"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/logo-brf.jpeg&quot;)"
+          >
+            <a
+              href="https://www.bfr.bund.de/en/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="BfR"
+            ></a>
+          </div>
+          <div
+            class="logo-item"
+            style="background-image: url(&quot;images/logo-mgap.png&quot;)"
+          >
+            <a
+              href="https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/"
+              target="_blank"
+              style="display: block; width: 100%; height: 100%"
+              title="MGAP - Uruguay"
+            ></a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      <p data-i18n="footer-text">
-        2026 LARAS - 4th Latin American and Caribbean Risk Assessment
-        Symposium
-      </p>
-    </div>
-  </footer>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact-title">Contact</h2>
+        <div class="grid-3">
+          <div class="card col-span-2">
+            <h3 data-i18n="contact-address-title">Venue Address</h3>
+            <p class="text-1_1">
+              <strong data-i18n="contact-venue-1"
+                >Auditorium of the Faculty of Pharmacy</strong
+              ><br />
+              <span data-i18n="contact-venue-2"
+                >Campus Pampulha - Universidade Federal de Minas Gerais
+                (UFMG)</span
+              ><br />
+              <span data-i18n="contact-venue-3"
+                >Belo Horizonte, Minas Gerais - Brazil</span
+              >
+            </p>
+            <div class="mt-1">
+              <a
+                href="https://maps.google.com/?q=Faculdade+de+Farmacia+UFMG+Belo+Horizonte"
+                target="_blank"
+                class="text-green font-bold"
+                data-i18n="contact-map-link"
+              >
+                <i class="bi bi-geo-alt-fill"></i> View on Google Maps
+              </a>
+            </div>
+          </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-  <script src="script.js?v=4"></script>
-</body>
+          <div class="card">
+            <h3 data-i18n="contact-touch-title">Get in Touch</h3>
+            <ul class="list-unstyled list-relaxed">
+              <li>
+                <i class="bi bi-envelope-fill"></i>
+                <a
+                  href="mailto:l.a.riskassessmentsymposium@gmail.com"
+                  class="text-inherit"
+                  data-i18n="contact-email-link"
+                  >Email Us</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-instagram"></i>
+                <a
+                  href="https://www.instagram.com/laras_event"
+                  class="text-inherit"
+                  target="_blank"
+                  data-i18n="contact-instagram-link"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-facebook"></i>
+                <a
+                  href="https://www.facebook.com/people/LARAS/61558511390553"
+                  class="text-inherit"
+                  target="_blank"
+                  data-i18n="contact-facebook-link"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <i class="bi bi-linkedin"></i>
+                <a
+                  href="https://www.linkedin.com/in/latin-american-and-caribbean-risk-assessment-1501b631a/"
+                  class="text-inherit"
+                  target="_blank"
+                  data-i18n="contact-linkedin-link"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <footer>
+      <div class="container">
+        <p data-i18n="footer-text">
+          2026 LARAS - 4th Latin American and Caribbean Risk Assessment
+          Symposium
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js?v=5"></script>
+  </body>
 </html>
