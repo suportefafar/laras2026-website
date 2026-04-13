@@ -53,7 +53,7 @@ const translations = {
       "<strong>15:30:</strong> Microbiological risk assessment of viruses in foods: food attribution, analytical methods and indicators — Marciane Magnani (UFPB, Brazil)",
     "prog-d1-s8": "<strong>16:10:</strong> Coffee break and posters exposition",
     "prog-d1-s9":
-      "<strong>16:40:</strong> Round table - Regional and Multilateral Collaboration — André Luis de Sousa dos Santos (OPAS, Brazil); Bettina Dabrowski-de-Flores (BfR, Germany); Umida Masharipova (ILMERAC/BfR, Germany); Raúl Peralta (OIRSA, Dominican Republic)",
+      "<strong>16:40:</strong> Round table - Regional and Multilateral Collaboration — André Luis de Sousa dos Santos (PANAFTOSA/PAHO, Brazil); Bettina Dabrowski-de-Flores (BfR, Germany);  Leopoldo del Barrio Reyna (FAO/RLC, Chile); Umida Masharipova (ILMERAC/BfR, Germany); Raúl Peralta (OIRSA, Dominican Republic)",
     "prog-d1-s10": "<strong>18:30:</strong> Welcome reception",
     "prog-d2-s1":
       "<strong>8:00-18:00:</strong> Welcome, Registration and Introductions",
