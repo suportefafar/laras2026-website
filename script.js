@@ -225,6 +225,10 @@ const translations = {
     "btn-program-cta": "Ver programa",
     "hero-when": "CUÁNDO: 30 de junio<br />al 3 de julio de 2026",
     "hero-where": "DÓNDE: UFMG,<br />Belo Horizonte, Brasil",
+    "hero-edition": "4ª Edición",
+    "hero-title": "LARAS <br /> <span>BRASIL 2026</span>",
+    "hero-subtitle":
+      "SIMPOSIO LATINOAMERICANO Y DEL CARIBE<br />SOBRE EVALUACIÓN DE RIESGOS",
     "welcome-title": "Bienvenida",
     "welcome-subtitle":
       "Bienvenidos al LARAS 2026 - 4º Simposio Latinoamericano y del Caribe sobre Evaluación de Riesgos",
@@ -292,70 +296,49 @@ const translations = {
     "visit-website": "Visitar Sitio Web",
     "hotel-car": "min",
     "hotel-walk": "min",
-    "prog-welcome-reg":
-      "<strong>08:00 – 18:30:</strong> Bienvenida, Registro e Introducciones",
-    "prog-lunch": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
-    "prog-opening": "<strong>14:00:</strong> Ceremonia de Apertura",
-    "prog-coffee-posters":
-      "<strong>16:00:</strong> Pausa para café y exposición de pósteres",
-    "prog-welcome-recep": "<strong>18:30:</strong> Recepción de bienvenida",
-    "prog-coffee": "<strong>16:00:</strong> Pausa para café",
-    "prog-award-info":
-      "<strong>17:10:</strong> Presentación de infografías y anuncio de los Premios del Concurso de Infografías",
-    "prog-award-posters":
-      "<strong>17:30:</strong> Presentación del Premio a los Mejores Pósteres — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
-    "prog-closing":
-      "<strong>17:50:</strong> Palabras de Clausura y Reflexiones Finales",
-    "hero-edition": "4ª Edición",
-    "hero-title": "LARAS <br /> <span>BRASIL 2026</span>",
-    "hero-subtitle":
-      "SIMPOSIO LATINOAMERICANO Y DEL CARIBE<br />SOBRE EVALUACIÓN DE RIESGOS",
-    "prog-mini-1":
-      "<strong>08:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos — Juliana de Oliveira Mota (WHO, Suiza)",
-    "prog-mini-2":
-      "<strong>08:30:</strong> Mini-curso 2: Envío de datos a bases de datos internacionales – GEMS/Food — Luc Ingenbleek (WHO, Suiza)",
-    "prog-session-ai":
-      "<strong>14:40:</strong> Aplicación de la IA en la evaluación de riesgos: ejemplos y próximas oportunidades — Matthias Filter (BfR, Alemania)",
-    "prog-session-risk-benefit":
-      "<strong>15:20:</strong> Evaluación de riesgo-beneficio de alimentos y dietas: desarrollos y perspectivas — Sara Monteiro Pires (DTU, Dinamarca)",
-    "prog-session-virus":
-      "<strong>16:30:</strong> Evaluación del riesgo microbiológico de virus en los alimentos: atribución de alimentos, métodos analíticos e indicadores — Marciane Magnani (UFPB, Brasil)",
-    "prog-round-regional":
-      "<strong>17:10:</strong> Mesa redonda – Colaboración Regional y Multilateral — André Luis de Sousa dos Santos (OPAS, Brasil); Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania); Raúl Peralta (OIRSA, República Dominicana)",
-    "prog-session-nams":
-      "<strong>14:00:</strong> Nuevos Métodos de Enfoque (NAMs) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
-    "prog-session-digital":
-      "<strong>14:40:</strong> Una herramienta digital, desarrollada por OIRSA, para el análisis probabilístico de la exposición de los alimentos a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana)",
-    "prog-session-databases":
-      "<strong>15:20:</strong> Uso de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
-    "prog-round-mycotoxins":
-      "<strong>16:30:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil)",
-    "prog-session-comics":
-      "<strong>17:30:</strong> El cómic como estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Raúl Müller (BfR, Alemania)",
-    "prog-mini-3":
-      "<strong>08:30:</strong> Mini-curso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
-    "prog-session-ilmerac":
-      "<strong>14:00:</strong> Cómo impulsa el ILMERAC la implementación global de los NAMs – actividades clave y colaboraciones — Denise Bloch (ILMERAC/BfR, Alemania)",
-    "prog-session-integrating":
-      "<strong>14:40:</strong> Integración de métodos para evaluar los impactos de la regulación en el consumo de alimentos y la salud — Constanza de Matteu Monteiro (DTU, Dinamarca)",
-    "prog-session-gems":
-      "<strong>15:20:</strong> Desafíos en la propuesta de cambios a la información ingresada en GEMS/Food — Luc Ingenbleek (WHO, Suiza)",
-    "prog-session-microbio":
-      "<strong>16:30:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (España)",
-    "prog-session-dark-kitchens":
-      "<strong>17:10:</strong> Gestión de la Inocuidad Alimentaria en Dark Kitchens: Lo que se esconde tras la informalidad — Diogo Thimoteo da Cunha (UNICAMP, Brasil)",
-    "prog-session-metals":
-      "<strong>17:50:</strong> Exposición a metales provenientes de alimentos infantiles en México — Alejandra Cantoral Preciado (Universidad Iberoamericana, México)",
-    "prog-mini-4":
-      "<strong>08:30:</strong> Mini-curso 4: Plan de comunicación de riesgos: elementos clave — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
-    "prog-session-ehc":
-      "<strong>14:00:</strong> Actualización del documento EHC 240 — Juliana de Oliveira Mota (WHO, Suiza)",
-    "prog-session-processing":
-      "<strong>14:40:</strong> Evaluación de riesgos de sustancias formadas durante el procesamiento de alimentos — Adriana Pavesi Arisseto Bragotto (UNICAMP, Brasil)",
-    "prog-session-achipia":
-      "<strong>15:20:</strong> De la evaluación de riesgos a la comunicación de riesgos: lecciones aprendidas y progresos de ACHIPIA — Constanza Paz Avello Lefno (ACHIPIA, Chile)",
-    "prog-session-pesticide":
-      "<strong>16:30:</strong> Evaluación de riesgos de mezclas de plaguicidas — ANVISA (Brasil)",
+    "prog-d1-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
+    "prog-d1-s2": "<strong>8:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos - parte I — Juliana de Oliveira Mota (WHO, Suiza)",
+    "prog-d1-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
+    "prog-d1-s4": "<strong>13:30:</strong> Ceremonia de Apertura",
+    "prog-d1-s5": "<strong>14:10:</strong> Aplicación de la IA en la evaluación de riesgos: ejemplos y próximas oportunidades — Matthias Filter (BfR, Alemania)",
+    "prog-d1-s6": "<strong>14:50:</strong> Evaluación de riesgo-beneficio de alimentos y dietas: desarrollos y perspectivas — Sara Monteiro Pires (DTU, Dinamarca)",
+    "prog-d1-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico de virus en los alimentos: atribución de alimentos, métodos analíticos e indicadores — Marciane Magnani (UFPB, Brasil)",
+    "prog-d1-s8": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
+    "prog-d1-s9": "<strong>16:40:</strong> Mesa redonda – Colaboración Regional y Multilateral — André Luis de Sousa dos Santos (OPAS, Brasil); Bettina Dabrowski-de-Flores (BfR, Alemania); Leopoldo del Barrio Reyna (FAO/RLC, Chile); Umida Masharipova (ILMERAC/BfR, Alemania); Raúl Peralta (OIRSA, República Dominicana)",
+    "prog-d1-s10": "<strong>18:30:</strong> Recepción de bienvenida",
+    "prog-d2-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
+    "prog-d2-s2": "<strong>8:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos - parte II — Juliana de Oliveira Mota (WHO, Suiza)",
+    "prog-d2-s3": "<strong>8:30:</strong> Mini-curso 2: Necesidades y oportunidades regionales para la cooperación en evaluación de riesgos en América Latina — Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania)",
+    "prog-d2-s4": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
+    "prog-d2-s5": "<strong>13:30:</strong> Nuevos Métodos de Enfoque (NAMs) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
+    "prog-d2-s6": "<strong>14:10:</strong> Una herramienta digital, desarrollada por OIRSA, para el análisis probabilístico de la exposición de los alimentos a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana); Lissette Marroquin (OIRSA)",
+    "prog-d2-s7": "<strong>14:50:</strong> Uso de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
+    "prog-d2-s8": "<strong>15:30:</strong> De la evidencia experimental a la toma de decisiones: bioensayos en la evaluación de riesgos — Cristina Briones (UCR, Costa Rica)",
+    "prog-d2-s9": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
+    "prog-d2-s10": "<strong>16:40:</strong> El cómic como estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-d2-s11": "<strong>17:20:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil)",
+    "prog-d3-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
+    "prog-d3-s2": "<strong>8:30:</strong> Mini-curso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-d3-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
+    "prog-d3-s4": "<strong>13:30:</strong> Cómo impulsa el ILMERAC la implementación global de los NAMs – actividades clave y colaboraciones — Denise Bloch (ILMERAC/BfR, Alemania)",
+    "prog-d3-s5": "<strong>14:10:</strong> Integración de métodos para evaluar los impactos de la regulación en el consumo de alimentos y la salud — Constanza de Matteu Monteiro (DTU, Dinamarca)",
+    "prog-d3-s6": "<strong>14:50:</strong> Actualización del documento EHC 240 — Juliana de Oliveira Mota (WHO, Suiza)",
+    "prog-d3-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (UCO, España)",
+    "prog-d3-s8": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
+    "prog-d3-s9": "<strong>16:40:</strong> Gestión de la Inocuidad Alimentaria en Dark Kitchens: Lo que se esconde tras la informalidad — Diogo Thimoteo da Cunha (UNICAMP, Brasil)",
+    "prog-d3-s10": "<strong>17:20:</strong> Exposición a metales provenientes de alimentos infantiles en México — Alejandra Cantoral Preciado (Universidad Iberoamericana, México)",
+    "prog-d4-s1": "<strong>8:00 - 18:00:</strong> Bienvenida e Introducciones",
+    "prog-d4-s2": "<strong>8:30:</strong> Mini-curso 4: Plan de comunicación de riesgos: elementos clave — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-d4-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
+    "prog-d4-s4": "<strong>13:30:</strong> Desafíos en la propuesta de cambios a la información ingresada en GEMS/Food — Luc Ingenbleek (WHO, Suiza) - virtual",
+    "prog-d4-s5": "<strong>14:10:</strong> Evaluación de riesgos de sustancias formadas durante el procesamiento de alimentos — Adriana Pavesi Arisseto Bragotto (UNICAMP, Brasil)",
+    "prog-d4-s6": "<strong>14:50:</strong> De la evaluación de riesgos a la comunicación de riesgos: lecciones aprendidas y progresos de la Agencia Chilena para la Inocuidad y Calidad Alimentaria (ACHIPIA) — Constanza Avello Lefno (ACHIPIA, Chile)",
+    "prog-d4-s7": "<strong>15:30:</strong> Pausa para café",
+    "prog-d4-s8": "<strong>16:00:</strong> Evaluación de riesgos de plaguicidas — Adriana Torres de Sousa (ANVISA, Brasil)",
+    "prog-d4-s9": "<strong>16:40:</strong> Aminas bioactivas en los alimentos — Maria Beatriz Abreu Glória (UFMG, Brasil)",
+    "prog-d4-s10": "<strong>17:20:</strong> Presentación de infografías y anuncio de los Premios del Concurso de Infografías",
+    "prog-d4-s11": "<strong>17:30:</strong> Presentación del Premio a los Mejores Pósteres — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
+    "prog-d4-s12": "<strong>17:45:</strong> Palabras de Clausura y Reflexiones Finales",
     "contest-deadline":
       "FECHA LÍMITE PARA ENVIAR SU INFOGRAFÍA: 4 de mayo de 2026",
     "contest-disclaimer":
