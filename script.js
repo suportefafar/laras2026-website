@@ -113,7 +113,7 @@ const translations = {
     "prog-d4-s11":
       "<strong>17:30:</strong> Presentation of the Award of the Best Posters — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
     "prog-d4-s12": "<strong>17:45:</strong> Closing Remarks and Final Thoughts",
-    "contest-deadline": "DEADLINE TO SUBMIT YOUR INFOGRAPHIC: May 4, 2026",
+    "contest-deadline": "DEADLINE TO SUBMIT YOUR INFOGRAPHIC: May 10, 2026",
     "contest-disclaimer":
       "Infographics must be original creations; no copyrighted images may be used. Participants must certify and warrant that the submitted infographic does not violate the rights of third parties or any copyrights.",
     "contest-format-btn": "Format & Judging Criteria",
@@ -177,7 +177,7 @@ const translations = {
     "abstracts-title": "Abstracts and posters",
     "deadlines-title": "Attention to deadlines",
     "deadline-abstracts":
-      '● <strong>Submission of abstracts:</strong> April 24, 2026 (<a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/" target="_blank">https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/</a>).',
+      '● <strong>Submission of abstracts:</strong> May 10, 2026 (<a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/" target="_blank">https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/</a>).',
     "deadline-results":
       "● <strong>Result of Approved Abstracts:</strong> until May 15, 2026.",
     "guidelines-title": "General Guidelines",
@@ -261,7 +261,7 @@ const translations = {
     "abstracts-title": "Resúmenes y pósteres",
     "deadlines-title": "Atención a los plazos",
     "deadline-abstracts":
-      "● <strong>Envío de resúmenes:</strong> 24 de abril de 2026",
+      "● <strong>Envío de resúmenes:</strong> 10 de mayo de 2026",
     "deadline-results":
       "● <strong>Resultado de Resúmenes Aprobados:</strong> hasta el 15 de mayo de 2026",
     "guidelines-title": "Directrices Generales",
@@ -340,7 +340,7 @@ const translations = {
     "prog-d4-s11": "<strong>17:30:</strong> Presentación del Premio a los Mejores Pósteres — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
     "prog-d4-s12": "<strong>17:45:</strong> Palabras de Clausura y Reflexiones Finales",
     "contest-deadline":
-      "FECHA LÍMITE PARA ENVIAR SU INFOGRAFÍA: 4 de mayo de 2026",
+      "FECHA LÍMITE PARA ENVIAR SU INFOGRAFÍA: 10 de mayo de 2026",
     "contest-disclaimer":
       "Las infografías deben ser creaciones originales; no se pueden utilizar imágenes con derechos de autor. Los participantes deben certificar y garantizar que la infografía enviada no viola los derechos de terceros ni ningún derecho de autor.",
     "contest-format-btn": "Formato y Criterios de Evaluación",
