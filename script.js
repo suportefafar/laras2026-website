@@ -179,7 +179,7 @@ const translations = {
     "deadline-abstracts":
       '● <strong>Submission of abstracts:</strong> May 10, 2026 (<a href="https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/" target="_blank">https://www.even3.com.br/laras-2026-4th-latin-american-and-caribbean-risk-assessment-symposium-637041/</a>).',
     "deadline-results":
-      "● <strong>Result of Approved Abstracts:</strong> until May 15, 2026.",
+      "● <strong>Result of Approved Abstracts:</strong> until May 25, 2026.",
     "guidelines-title": "General Guidelines",
     "guidelines-p1":
       "Abstract submissions must be made online, in the registrant area on the event's official website. Each registration entitles the submission of one paper as the main author.",
@@ -263,7 +263,7 @@ const translations = {
     "deadline-abstracts":
       "● <strong>Envío de resúmenes:</strong> 10 de mayo de 2026",
     "deadline-results":
-      "● <strong>Resultado de Resúmenes Aprobados:</strong> hasta el 15 de mayo de 2026",
+      "● <strong>Resultado de Resúmenes Aprobados:</strong> hasta el 25 de mayo de 2026",
     "guidelines-title": "Directrices Generales",
     "guidelines-p1":
       "El envío de resúmenes debe realizarse en línea, en el área de inscripción del sitio web oficial del evento. Cada registro da derecho al envío de un trabajo como autor principal.",
