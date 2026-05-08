@@ -69,10 +69,10 @@ const translations = {
     "prog-d2-s7":
       "<strong>14:50:</strong> Use of national food consumption databases for risk assessment — Eliseu Verly Júnior (UERJ, Brazil)",
     "prog-d2-s8":
-      "<strong>15:30:</strong> From Experimental Evidence to Decision- Making: Bioassays in Risk Assessment — Cristina Briones (UCR, Costa Rica)",
+      "<strong>15:30:</strong> From Biomodels to Risk: How Toxicological Data Are Generated — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d2-s9": "<strong>16:10:</strong> Coffee break and posters exposition",
     "prog-d2-s10":
-      "<strong>16:40:</strong> Comics as a risk communication strategy — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)",
+      "<strong>16:40:</strong> The Art of Storytelling: Using Comics as a Risk Communication Strategy. Effects and Results — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)",
     "prog-d2-s11":
       "<strong>17:20:</strong> Round table - Mycotoxins — Marta Hiromi Taniwaki (ITAL, Brazil); Liliana O. Rocha (UNICAMP, Brazil); Lígia L. Schreiner (ANVISA, Brazil)",
     "prog-d3-s1":
@@ -313,9 +313,9 @@ const translations = {
     "prog-d2-s5": "<strong>13:30:</strong> Nuevos Métodos de Enfoque (NAMs) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
     "prog-d2-s6": "<strong>14:10:</strong> Una herramienta digital, desarrollada por OIRSA, para el análisis probabilístico de la exposición de los alimentos a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana); Lissette Marroquin (OIRSA)",
     "prog-d2-s7": "<strong>14:50:</strong> Uso de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
-    "prog-d2-s8": "<strong>15:30:</strong> De la evidencia experimental a la toma de decisiones: bioensayos en la evaluación de riesgos — Cristina Briones (UCR, Costa Rica)",
+    "prog-d2-s8": "<strong>15:30:</strong> De los biomodelos al riesgo: cómo se generan los datos toxicológico — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d2-s9": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
-    "prog-d2-s10": "<strong>16:40:</strong> El cómic como estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-d2-s10": "<strong>16:40:</strong> El arte de contar historias: el uso del cómic como estrategia de comunicación de riesgos. Efectos y resultado — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
     "prog-d2-s11": "<strong>17:20:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil)",
     "prog-d3-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
     "prog-d3-s2": "<strong>8:30:</strong> Mini-curso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
