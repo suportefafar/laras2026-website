@@ -113,7 +113,7 @@ const translations = {
     "prog-d4-s11":
       "<strong>17:30:</strong> Presentation of the Award of the Best Posters — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
     "prog-d4-s12": "<strong>17:45:</strong> Closing Remarks and Final Thoughts",
-    "contest-deadline": "DEADLINE TO SUBMIT YOUR INFOGRAPHIC: May 10, 2026",
+    "contest-deadline": "DEADLINE TO SUBMIT YOUR INFOGRAPHIC: May 25, 2026 - Extend",
     "contest-disclaimer":
       "Infographics must be original creations; no copyrighted images may be used. Participants must certify and warrant that the submitted infographic does not violate the rights of third parties or any copyrights.",
     "contest-format-btn": "Format & Judging Criteria",
@@ -340,7 +340,7 @@ const translations = {
     "prog-d4-s11": "<strong>17:30:</strong> Presentación del Premio a los Mejores Pósteres — Alejandra Cantoral Preciado; Verônica Ortiz Alvarenga",
     "prog-d4-s12": "<strong>17:45:</strong> Palabras de Clausura y Reflexiones Finales",
     "contest-deadline":
-      "FECHA LÍMITE PARA ENVIAR SU INFOGRAFÍA: 10 de mayo de 2026",
+      "FECHA LÍMITE PARA ENVIAR SU INFOGRAFÍA: 25 de mayo de 2026 - Prorrogado",
     "contest-disclaimer":
       "Las infografías deben ser creaciones originales; no se pueden utilizar imágenes con derechos de autor. Los participantes deben certificar y garantizar que la infografía enviada no viola los derechos de terceros ni ningún derecho de autor.",
     "contest-format-btn": "Formato y Criterios de Evaluación",
