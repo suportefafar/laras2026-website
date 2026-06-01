@@ -8,3 +8,5 @@ images/*.ico
 images/*.bmp
 images/*.tiff
 images/*.webp
+
+docs/*.pdf
