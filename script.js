@@ -42,7 +42,7 @@ const translations = {
     "prog-d1-s1":
       "<strong>8:00 - 18:00:</strong> Welcome, Registration and Introductions",
     "prog-d1-s2":
-      "<strong>8:30:</strong> Mini-course 1: Risks and Benefits Assessment of Food Consumption - part I — Juliana de Oliveira Mota (WHO, Switzerland)",
+      "<strong>8:30:</strong> Mini-course 1: Risks and Benefits Assessment of Food Consumption — Juliana de Oliveira Mota (WHO, Switzerland); Sara Monteiro Pires (DTU, Denmark); Constanza de Matteu Monteiro (DTU, Denmark); Flávia Custódio (UFMG, Brazil); André Sousa (PAHO, Brazil); Lígia Schreiner (ANVISA, Brazil)",
     "prog-d1-s3": "<strong>12:00:</strong> Lunch time (self-arranged)",
     "prog-d1-s4": "<strong>13:30:</strong> Opening Ceremony",
     "prog-d1-s5":
@@ -50,15 +50,13 @@ const translations = {
     "prog-d1-s6":
       "<strong>14:50:</strong> Risk-benefit assessment of foods and diets: developments and perspectives — Sara Monteiro Pires (DTU, Denmark)",
     "prog-d1-s7":
-      "<strong>15:30:</strong> Microbiological risk assessment of viruses in foods: food attribution, analytical methods and indicators — Marciane Magnani (UFPB, Brazil)",
+      "<strong>15:30:</strong> Microbiological risk assessment — Arícia Mara Possas (UCO, Spain)",
     "prog-d1-s8": "<strong>16:10:</strong> Coffee break and posters exposition",
     "prog-d1-s9":
       "<strong>16:40:</strong> Round table - Regional and Multilateral Collaboration — André Luis de Sousa dos Santos (PANAFTOSA/PAHO, Brazil); Bettina Dabrowski-de-Flores (BfR, Germany);  Leopoldo del Barrio Reyna (FAO/RLC, Chile); Umida Masharipova (ILMERAC/BfR, Germany); Raúl Peralta (OIRSA, Dominican Republic)",
     "prog-d1-s10": "<strong>18:30:</strong> Welcome reception",
     "prog-d2-s1":
       "<strong>8:00-18:00:</strong> Welcome, Registration and Introductions",
-    "prog-d2-s2":
-      "<strong>8:30:</strong> Mini-course 1: Risks and Benefits Assessment of Food Consumption - part II — Juliana de Oliveira Mota (WHO, Switzerland)",
     "prog-d2-s3":
       "<strong>8:30:</strong> Mini-course 2: Regional Needs and Opportunities for Risk Assessment Cooperation in Latin America — Bettina Dabrowski-de-Flores (BfR, Germany); Umida Masharipova (ILMERAC/BfR, Germany)",
     "prog-d2-s4": "<strong>12:00:</strong> Lunch time (self-arranged)",
@@ -74,7 +72,7 @@ const translations = {
     "prog-d2-s10":
       "<strong>16:40:</strong> The Art of Storytelling: Using Comics as a Risk Communication Strategy. Effects and Results — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)",
     "prog-d2-s11":
-      "<strong>17:20:</strong> Round table - Mycotoxins — Marta Hiromi Taniwaki (ITAL, Brazil); Liliana O. Rocha (UNICAMP, Brazil); Lígia L. Schreiner (ANVISA, Brazil)",
+      "<strong>17:20:</strong> Round table - Mycotoxins — Marta Hiromi Taniwaki (ITAL, Brazil); Liliana O. Rocha (UNICAMP, Brazil); Lígia L. Schreiner (ANVISA, Brazil); Lucas Guerra (Abicab, Brazil)",
     "prog-d3-s1":
       "<strong>8:00-18:00:</strong> Welcome, Registration and Introductions",
     "prog-d3-s2":
@@ -87,7 +85,7 @@ const translations = {
     "prog-d3-s6":
       "<strong>14:50:</strong> Update to document EHC 240 — Juliana de Oliveira Mota (WHO, Switzerland)",
     "prog-d3-s7":
-      "<strong>15:30:</strong> Microbiological risk assessment — Arícia Mara Possas (UCO, Spain)",
+      "<strong>15:30:</strong> Microbiological risk assessment of viruses in foods: food attribution, analytical methods and indicators — Marciane Magnani (UFPB, Brazil)",
     "prog-d3-s8": "<strong>16:10:</strong> Coffee break and posters exposition",
     "prog-d3-s9":
       "<strong>16:40:</strong> Food Safety Management in Dark Kitchens: What Lies Behind Informality — Diogo Thimoteo da Cunha (UNICAMP, Brazil)",
@@ -297,17 +295,16 @@ const translations = {
     "hotel-car": "min",
     "hotel-walk": "min",
     "prog-d1-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
-    "prog-d1-s2": "<strong>8:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos - parte I — Juliana de Oliveira Mota (WHO, Suiza)",
+    "prog-d1-s2": "<strong>8:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos — Juliana de Oliveira Mota (WHO, Suiza); Sara Monteiro Pires (DTU, Dinamarca); Constanza de Matteu Monteiro (DTU, Dinamarca); Flávia Custódio (UFMG, Brasil); André Sousa (OPAS, Brasil); Lígia Schreiner (ANVISA, Brasil)",
     "prog-d1-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
     "prog-d1-s4": "<strong>13:30:</strong> Ceremonia de Apertura",
     "prog-d1-s5": "<strong>14:10:</strong> Aplicación de la IA en la evaluación de riesgos: ejemplos y próximas oportunidades — Matthias Filter (BfR, Alemania)",
     "prog-d1-s6": "<strong>14:50:</strong> Evaluación de riesgo-beneficio de alimentos y dietas: desarrollos y perspectivas — Sara Monteiro Pires (DTU, Dinamarca)",
-    "prog-d1-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico de virus en los alimentos: atribución de alimentos, métodos analíticos e indicadores — Marciane Magnani (UFPB, Brasil)",
+    "prog-d1-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (UCO, España)",
     "prog-d1-s8": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
     "prog-d1-s9": "<strong>16:40:</strong> Mesa redonda – Colaboración Regional y Multilateral — André Luis de Sousa dos Santos (OPAS, Brasil); Bettina Dabrowski-de-Flores (BfR, Alemania); Leopoldo del Barrio Reyna (FAO/RLC, Chile); Umida Masharipova (ILMERAC/BfR, Alemania); Raúl Peralta (OIRSA, República Dominicana)",
     "prog-d1-s10": "<strong>18:30:</strong> Recepción de bienvenida",
     "prog-d2-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
-    "prog-d2-s2": "<strong>8:30:</strong> Mini-curso 1: Evaluación de Riesgos y Beneficios del Consumo de Alimentos - parte II — Juliana de Oliveira Mota (WHO, Suiza)",
     "prog-d2-s3": "<strong>8:30:</strong> Mini-curso 2: Necesidades y oportunidades regionales para la cooperación en evaluación de riesgos en América Latina — Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania)",
     "prog-d2-s4": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
     "prog-d2-s5": "<strong>13:30:</strong> Nuevos Métodos de Enfoque (NAMs) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
@@ -316,14 +313,14 @@ const translations = {
     "prog-d2-s8": "<strong>15:30:</strong> De los biomodelos al riesgo: cómo se generan los datos toxicológico — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d2-s9": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
     "prog-d2-s10": "<strong>16:40:</strong> El arte de contar historias: el uso del cómic como estrategia de comunicación de riesgos. Efectos y resultado — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
-    "prog-d2-s11": "<strong>17:20:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil)",
+    "prog-d2-s11": "<strong>17:20:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil); Lucas Guerra (Abicab, Brasil)",
     "prog-d3-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
     "prog-d3-s2": "<strong>8:30:</strong> Mini-curso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
     "prog-d3-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
     "prog-d3-s4": "<strong>13:30:</strong> Cómo impulsa el ILMERAC la implementación global de los NAMs – actividades clave y colaboraciones — Denise Bloch (ILMERAC/BfR, Alemania)",
     "prog-d3-s5": "<strong>14:10:</strong> Integración de métodos para evaluar los impactos de la regulación en el consumo de alimentos y la salud — Constanza de Matteu Monteiro (DTU, Dinamarca)",
     "prog-d3-s6": "<strong>14:50:</strong> Actualización del documento EHC 240 — Juliana de Oliveira Mota (WHO, Suiza)",
-    "prog-d3-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (UCO, España)",
+    "prog-d3-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico de virus en los alimentos: atribución de alimentos, métodos analíticos e indicadores — Marciane Magnani (UFPB, Brasil)",
     "prog-d3-s8": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
     "prog-d3-s9": "<strong>16:40:</strong> Gestión de la Inocuidad Alimentaria en Dark Kitchens: Lo que se esconde tras la informalidad — Diogo Thimoteo da Cunha (UNICAMP, Brasil)",
     "prog-d3-s10": "<strong>17:20:</strong> Exposición a metales provenientes de alimentos infantiles en México — Alejandra Cantoral Preciado (Universidad Iberoamericana, México)",
