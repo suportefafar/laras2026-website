@@ -404,7 +404,7 @@ const hotelData = [
     walkTime: 21,
     walkDistance: "1.5 km",
     url: "https://www.hotelstopinnpampulha.com.br/",
-    image: "images/hotel-1.webp",
+    image: "images/hotel.webp",
   },
   {
     name: "Da Orla Pampulha Hostel",
@@ -416,7 +416,7 @@ const hotelData = [
     walkTime: 27,
     walkDistance: "1.8 km",
     url: "https://hotels.cloudbeds.com/reservas/SGczgV",
-    image: "images/hotel-2.jpg",
+    image: "images/hotel-1.jpg",
   },
   {
     name: "San Diego Suítes Pampulha",
@@ -428,7 +428,7 @@ const hotelData = [
     walkTime: 32,
     walkDistance: "2.2 km",
     url: "https://www.nobilehoteis.com.br/minas-gerais/belo-horizonte/san-diego-suites-pampulha/",
-    image: "images/hotel-3.jpg",
+    image: "images/hotel-2.jpg",
   },
   {
     name: "Pampulha Flat",
@@ -440,7 +440,7 @@ const hotelData = [
     walkTime: 34,
     walkDistance: "2.2 km",
     url: "https://www.pampulhaflat.com/",
-    image: "images/hotel-4.jpg",
+    image: "images/hotel.jpg",
   },
   {
     name: "OYO Hotel L'Espace",
@@ -452,7 +452,7 @@ const hotelData = [
     walkTime: 39,
     walkDistance: "2.7 km",
     url: "https://www.oyorooms.com/br/84583/",
-    image: "images/hotel-5.jpeg",
+    image: "images/hotel-4.jpeg",
   },
   {
     name: "Pampulha Lieu Hotel",
@@ -464,7 +464,7 @@ const hotelData = [
     walkTime: 27,
     walkDistance: "1.8 km",
     url: "https://www.pampulhalieu.com.br/",
-    image: "images/hotel-6.jpeg",
+    image: "images/hotel-3.jpeg",
   },
   {
     name: "Nobile Inn Pampulha",
@@ -476,7 +476,7 @@ const hotelData = [
     walkTime: null,
     walkDistance: null,
     url: "https://www.nobilehoteis.com.br/minas-gerais/belo-horizonte/nobile-inn-pampulha/",
-    image: "images/hotel-7.jpeg",
+    image: "images/hotel-5.jpeg",
   },
   {
     name: "Jaraguá Hotel",
@@ -488,7 +488,7 @@ const hotelData = [
     walkTime: 29,
     walkDistance: "2.1 km",
     url: "https://www.bhjaraguahotel.com.br",
-    image: "images/hotel-8.jpeg",
+    image: "images/hotel.jpeg",
   },
   {
     name: "Allia Gran Pampulha Suites",
@@ -500,7 +500,7 @@ const hotelData = [
     walkTime: null,
     walkDistance: null,
     url: "https://www.alliagranpampulhasuites.com.br/",
-    image: "images/hotel-9.jpeg",
+    image: "images/hotel-2.jpeg",
   },
   {
     name: "Quality Hotel Pampulha & Convention Center",
@@ -512,7 +512,7 @@ const hotelData = [
     walkTime: null,
     walkDistance: null,
     url: "https://www.reserveatlantica.com.br/hotel/quality-hotel-pampulha-convention-center",
-    image: "images/hotel-10.jpeg",
+    image: "images/hotel-1.jpeg",
   },
 ];
 
@@ -527,7 +527,7 @@ const touristicData = {
         en: "The cultural heart of Belo Horizonte, the Complexo da Praça da Liberdade brings together museums, cultural centers, and beautiful historic gardens. Visitors can explore spaces such as CCBB, Memorial Minas Gerais Vale, and Centro de Arte Popular in a charming, history-filled setting.",
         es: "El corazón cultural de Belo Horizonte, el Complejo de la Plaza de la Libertad reúne museos, centros culturales y hermosos jardines históricos. Los visitantes pueden explorar espacios como el CCBB, Memorial Minas Gerais Vale y Centro de Arte Popular en un entorno encantador y lleno de historia.",
       },
-      image: "images/touristic-1.jpg",
+      image: "images/touristic.jpg",
     },
     {
       name: {
@@ -586,7 +586,7 @@ const touristicData = {
         es: "Ouro Preto es una encantadora ciudad histórica a unos 100 km de Belo Horizonte, famosa por su arquitectura colonial e iglesias barrocas. Sus colinas empedradas y su rico patrimonio cultural transportan a los visitantes a la era de la fiebre del oro en Brasil. Es un destino imperdible para los amantes de la historia y el arte.",
       },
       url: "https://www.ouropreto.org.br/",
-      image: "images/touristic-6.jpg",
+      image: "images/touristic-1.jpg",
     },
     {
       name: {
@@ -598,7 +598,7 @@ const touristicData = {
         es: "Inhotim es uno de los museos de arte contemporáneo al aire libre más grandes del mundo, ubicado en Brumadinho, a unos 60 km de Belo Horizonte. El espacio combina arte, naturaleza y arquitectura dentro de un exuberante jardín botánico. Es un destino de visita obligada para quienes buscan cultura y paisajes impresionantes.",
       },
       url: "https://www.inhotim.org.br/visite/",
-      image: "images/touristic-7.jpg",
+      image: "images/touristic-6.jpg",
     },
   ],
 };
@@ -837,7 +837,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "images/banner-2.jpeg",
       "images/banner-3.jpeg",
       "images/banner-4.jpeg",
-      "images/banner-5.jpeg",
+      "images/banner.jpeg",
     ];
     const firstLayer = document.querySelector(".first-layer");
     if (firstLayer) {
