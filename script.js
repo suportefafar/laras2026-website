@@ -50,7 +50,7 @@ const translations = {
     "prog-d1-s6":
       "<strong>14:50:</strong> Risk-benefit assessment of foods and diets: developments and perspectives — Sara Monteiro Pires (DTU, Denmark)",
     "prog-d1-s7":
-      "<strong>15:30:</strong> Microbiological risk assessment — Arícia Mara Possas (UCO, Spain)",
+      "<strong>15:30:</strong> Integrating Antimicrobial Resistance into Microbial Risk Assessment: The QARMA Framework — Arícia Mara Possas (UCO, Spain)",
     "prog-d1-s8": "<strong>16:10:</strong> Coffee break and posters exposition",
     "prog-d1-s9":
       "<strong>16:40:</strong> Round table - Regional and Multilateral Collaboration — André Luis de Sousa dos Santos (PANAFTOSA/PAHO, Brazil); Bettina Dabrowski-de-Flores (BfR, Germany);  Leopoldo del Barrio Reyna (FAO/RLC, Chile); Umida Masharipova (ILMERAC/BfR, Germany); Raúl Peralta (OIRSA, Dominican Republic)",
@@ -63,14 +63,14 @@ const translations = {
     "prog-d2-s5":
       "<strong>13:30:</strong> New Approach Methods (NAMs) in Next- Generation Risk Assessment (NGRA) — José Vicente Tarazona Lafarga (ISCIII, Spain)",
     "prog-d2-s6":
-      "<strong>14:10:</strong> A digital tool, developed by OIRSA, for probabilistic analysis of food exposure to chemical contaminants — Raúl Peralta (OIRSA, Dominican Republic); Lissette Marroquin (OIRSA)",
+      "<strong>14:10:</strong> Use of national food consumption databases for risk assessment — Eliseu Verly Júnior (UERJ, Brazil)",
     "prog-d2-s7":
-      "<strong>14:50:</strong> Use of national food consumption databases for risk assessment — Eliseu Verly Júnior (UERJ, Brazil)",
+      "<strong>14:50:</strong> A digital tool, developed by OIRSA, for probabilistic analysis of food exposure to chemical contaminants — Raúl Peralta (OIRSA, Dominican Republic); Lissette Marroquin (OIRSA)",
     "prog-d2-s8":
-      "<strong>15:30:</strong> From Biomodels to Risk: How Toxicological Data Are Generated — Ana Cristina Briones (UCR, Costa Rica)",
+      "<strong>15:30:</strong> Risk assessment of substances formed during food processing — Adriana Pavesi A. Bragotto (UNICAMP, Brazil)",
     "prog-d2-s9": "<strong>16:10:</strong> Coffee break and posters exposition",
     "prog-d2-s10":
-      "<strong>16:40:</strong> The Art of Storytelling: Using Comics as a Risk Communication Strategy. Effects and Results — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)",
+      "<strong>16:40:</strong> The Art of Storytelling: Using Comics as a Risk Communication Strategy. Effects and Results — Cláudio Canales (BfR, Germany)",
     "prog-d2-s11":
       "<strong>17:20:</strong> Round table - Mycotoxins — Marta Hiromi Taniwaki (ITAL, Brazil); Liliana O. Rocha (UNICAMP, Brazil); Lígia L. Schreiner (ANVISA, Brazil); Lucas Guerra (Abicab, Brazil)",
     "prog-d3-s1":
@@ -98,7 +98,7 @@ const translations = {
     "prog-d4-s4":
       "<strong>13:30:</strong> Challenges in proposing changes to the information entered in GEMS/Food — Luc Ingenbleek (WHO, Switzerland) - virtual",
     "prog-d4-s5":
-      "<strong>14:10:</strong> Risk assessment of substances formed during food processing — Adriana Pavesi A. Bragotto (UNICAMP, Brazil)",
+      "<strong>14:10:</strong> From Biomodels to Risk: How Toxicological Data Are Generated — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d4-s6":
       "<strong>14:50:</strong> From risk assessment to risk communication: lessons learned and progress of the Chilean Agency for Food Safety and Quality (ACHIPIA) — Constanza Avello Lefno (ACHIPIA, Chile)",
     "prog-d4-s7": "<strong>15:30:</strong> Coffee break",
@@ -300,7 +300,7 @@ const translations = {
     "prog-d1-s4": "<strong>13:30:</strong> Ceremonia de Apertura",
     "prog-d1-s5": "<strong>14:10:</strong> Aplicación de la IA en la evaluación de riesgos: ejemplos y próximas oportunidades — Matthias Filter (BfR, Alemania)",
     "prog-d1-s6": "<strong>14:50:</strong> Evaluación de riesgo-beneficio de alimentos y dietas: desarrollos y perspectivas — Sara Monteiro Pires (DTU, Dinamarca)",
-    "prog-d1-s7": "<strong>15:30:</strong> Evaluación del riesgo microbiológico — Arícia Mara Possas (UCO, España)",
+    "prog-d1-s7": "<strong>15:30:</strong> Integración de la resistencia a los antimicrobianos en la evaluación de riesgos microbianos: el marco QARMA — Arícia Mara Possas (UCO, España)",
     "prog-d1-s8": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
     "prog-d1-s9": "<strong>16:40:</strong> Mesa redonda – Colaboración Regional y Multilateral — André Luis de Sousa dos Santos (OPAS, Brasil); Bettina Dabrowski-de-Flores (BfR, Alemania); Leopoldo del Barrio Reyna (FAO/RLC, Chile); Umida Masharipova (ILMERAC/BfR, Alemania); Raúl Peralta (OIRSA, República Dominicana)",
     "prog-d1-s10": "<strong>18:30:</strong> Recepción de bienvenida",
@@ -308,11 +308,11 @@ const translations = {
     "prog-d2-s3": "<strong>8:30:</strong> Mini-curso 2: Necesidades y oportunidades regionales para la cooperación en evaluación de riesgos en América Latina — Bettina Dabrowski-de-Flores (BfR, Alemania); Umida Masharipova (ILMERAC/BfR, Alemania)",
     "prog-d2-s4": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
     "prog-d2-s5": "<strong>13:30:</strong> Nuevos Métodos de Enfoque (NAMs) en la Evaluación de Riesgos de Próxima Generación (NGRA) — José Vicente Tarazona Lafarga (ISCIII, España)",
-    "prog-d2-s6": "<strong>14:10:</strong> Una herramienta digital, desarrollada por OIRSA, para el análisis probabilístico de la exposición de los alimentos a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana); Lissette Marroquin (OIRSA)",
-    "prog-d2-s7": "<strong>14:50:</strong> Uso de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
-    "prog-d2-s8": "<strong>15:30:</strong> De los biomodelos al riesgo: cómo se generan los datos toxicológico — Ana Cristina Briones (UCR, Costa Rica)",
+    "prog-d2-s6": "<strong>14:10:</strong> Uso de bases de datos nacionales de consumo de alimentos para la evaluación de riesgos — Eliseu Verly Júnior (UERJ, Brasil)",
+    "prog-d2-s7": "<strong>14:50:</strong> Una herramienta digital, desarrollada por OIRSA, para el análisis probabilístico de la exposición de los alimentos a contaminantes químicos — Raúl Peralta (OIRSA, República Dominicana); Lissette Marroquin (OIRSA)",
+    "prog-d2-s8": "<strong>15:30:</strong> Evaluación de riesgos de sustancias formadas durante el procesamiento de alimentos — Adriana Pavesi Arisseto Bragotto (UNICAMP, Brasil)",
     "prog-d2-s9": "<strong>16:10:</strong> Pausa para café y exposición de pósteres",
-    "prog-d2-s10": "<strong>16:40:</strong> El arte de contar historias: el uso del cómic como estrategia de comunicación de riesgos. Efectos y resultado — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
+    "prog-d2-s10": "<strong>16:40:</strong> El arte de contar historias: el uso del cómic como estrategia de comunicación de riesgos. Efectos y resultado — Cláudio Canales (BfR, Alemania)",
     "prog-d2-s11": "<strong>17:20:</strong> Mesa redonda – Micotoxinas — Marta Hiromi Taniwaki (ITAL, Brasil); Liliana O. Rocha (UNICAMP, Brasil); Lígia L. Schreiner (ANVISA, Brasil); Lucas Guerra (Abicab, Brasil)",
     "prog-d3-s1": "<strong>8:00 - 18:00:</strong> Bienvenida, Registro e Introducciones",
     "prog-d3-s2": "<strong>8:30:</strong> Mini-curso 3: Cómo desarrollar una estrategia de comunicación de riesgos — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
@@ -328,7 +328,7 @@ const translations = {
     "prog-d4-s2": "<strong>8:30:</strong> Mini-curso 4: Plan de comunicación de riesgos: elementos clave — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
     "prog-d4-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
     "prog-d4-s4": "<strong>13:30:</strong> Desafíos en la propuesta de cambios a la información ingresada en GEMS/Food — Luc Ingenbleek (WHO, Suiza) - virtual",
-    "prog-d4-s5": "<strong>14:10:</strong> Evaluación de riesgos de sustancias formadas durante el procesamiento de alimentos — Adriana Pavesi Arisseto Bragotto (UNICAMP, Brasil)",
+    "prog-d4-s5": "<strong>14:10:</strong> De los biomodelos al riesgo: cómo se generan los datos toxicológico — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d4-s6": "<strong>14:50:</strong> De la evaluación de riesgos a la comunicación de riesgos: lecciones aprendidas y progresos de la Agencia Chilena para la Inocuidad y Calidad Alimentaria (ACHIPIA) — Constanza Avello Lefno (ACHIPIA, Chile)",
     "prog-d4-s7": "<strong>15:30:</strong> Pausa para café",
     "prog-d4-s8": "<strong>16:00:</strong> Evaluación de riesgos de plaguicidas — Adriana Torres de Sousa (ANVISA, Brasil)",
