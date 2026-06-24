@@ -96,7 +96,7 @@ const translations = {
       "<strong>8:30:</strong> Mini-course 4: Risk communication plan: key elements — Cláudio Canales (BfR, Germany); Frederic Müller (BfR, Germany)",
     "prog-d4-s3": "<strong>12:00:</strong> Lunch time (self-arranged)",
     "prog-d4-s4":
-      "<strong>13:30:</strong> Challenges in proposing changes to the information entered in GEMS/Food — Luc Ingenbleek (WHO, Switzerland) - virtual",
+      "<strong>13:30:</strong> The WHO GEMS/Food Database: Challenges and Opportunities — Luc Ingenbleek (WHO, Switzerland) - virtual",
     "prog-d4-s5":
       "<strong>14:10:</strong> From Biomodels to Risk: How Toxicological Data Are Generated — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d4-s6":
@@ -327,7 +327,7 @@ const translations = {
     "prog-d4-s1": "<strong>8:00 - 18:00:</strong> Bienvenida e Introducciones",
     "prog-d4-s2": "<strong>8:30:</strong> Mini-curso 4: Plan de comunicación de riesgos: elementos clave — Cláudio Canales (BfR, Alemania); Frederic Müller (BfR, Alemania)",
     "prog-d4-s3": "<strong>12:00:</strong> Almuerzo (por cuenta propia)",
-    "prog-d4-s4": "<strong>13:30:</strong> Desafíos en la propuesta de cambios a la información ingresada en GEMS/Food — Luc Ingenbleek (WHO, Suiza) - virtual",
+    "prog-d4-s4": "<strong>13:30:</strong> La Base de Datos GEMS/Food de la OMS: Desafíos y Oportunidades — Luc Ingenbleek (WHO, Suiza) - virtual",
     "prog-d4-s5": "<strong>14:10:</strong> De los biomodelos al riesgo: cómo se generan los datos toxicológico — Ana Cristina Briones (UCR, Costa Rica)",
     "prog-d4-s6": "<strong>14:50:</strong> De la evaluación de riesgos a la comunicación de riesgos: lecciones aprendidas y progresos de la Agencia Chilena para la Inocuidad y Calidad Alimentaria (ACHIPIA) — Constanza Avello Lefno (ACHIPIA, Chile)",
     "prog-d4-s7": "<strong>15:30:</strong> Pausa para café",
