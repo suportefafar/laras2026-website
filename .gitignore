@@ -10,3 +10,8 @@ images/*.tiff
 images/*.webp
 
 docs/*.pdf
+
+# Olympus: local runtime configuration
+.env
+.env.*
+!/.env.example
